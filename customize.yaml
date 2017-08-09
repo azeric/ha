@@ -1,0 +1,24 @@
+#SENSORS
+sensor.dark_sky_summary:
+  friendly_name: Conditions
+sensor.dark_sky_temperature:
+  friendly_name: Temp
+sensor.dark_sky_apparent_temperature:
+  friendly_name: Feels Like
+sensor.dark_sky_humidity:
+  friendly_name: Humidity
+sensor.dark_sky_precip_probability:
+  friendly_name: Rain Probability
+climate.barn:
+  friendly_name: Current
+  icon: mdi:thermometer
+sensor.to_barn:
+  entity_picture: /local/barn.png
+sensor.to_city:
+  entity_picture: /local/nyc.png
+sensor.beaker:
+  entity_picture: /local/beaker.jpg
+  friendly_name: Beaker (server)
+sensor.ashleighsipad:
+  entity_picture: /local/kermit.png
+  friendly_name: Kermit (iPad)

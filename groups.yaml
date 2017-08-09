@@ -1,0 +1,60 @@
+#groups
+Thermostat:
+  name: Thermostat
+  entities:
+  - climate.barn
+System:
+  name: System
+  entities:
+  - sensor.cpu_use
+  - sensor.ram_free
+  - sensor.disk_free_media
+  - sensor.since_last_boot
+Weather:
+  entities:
+  - sensor.dark_sky_summary
+  - sensor.dark_sky_temperature
+  - sensor.dark_sky_apparent_temperature
+  - sensor.dark_sky_humidity
+  - sensor.dark_sky_precip_probability
+  - sensor.dark_sky_precip_intesity
+UPS:
+  entities:
+  - sensor.ups_load
+  - sensor.ups_battery
+  - sensor.ups_time_left
+traveltimes:
+  name: Travel Times
+  entities:
+  - sensor.to_barn
+  - sensor.to_city
+devices:
+  name: Network Devices
+  entities:
+  - sensor.beaker  
+  - sensor.ashleighsipad
+
+#tabs
+default_view:
+  view: true
+  entities:
+  - group.weather
+  - group.thermostat
+  - camera.barninside
+  - camera.barnoutside
+  - switch.my_smart_plug_mini
+Travel:
+  name: Travel
+  view: true
+  entities:
+  - group.traveltimes
+  - camera.west_side_highway_at_158th
+  - camera.saw_mill_river
+SystemView:
+  name: System
+  view: true
+  entities:
+  - group.system
+  - group.ups
+  - group.devices
+  - group.pihole

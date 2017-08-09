@@ -1,0 +1,26 @@
+     ###################################
+##  Sunrise and Sunset stuff
+###################################
+
+- alias: 'Sunset Stuff on'
+  trigger:
+    - platform: state
+      entity_id: sun.sun
+      to: 'below_horizon'
+
+  action:
+    - service: switch.turn_on
+      entity_id:
+        - switch.my_smart_plug_mini
+
+- alias: 'Sunset Stuff off'
+  trigger:
+    - platform: sun
+      event: sunrise
+      offset: '-02:00:00'
+
+  action:
+    - delay: '00:{{ (range(1, 55)|random|int) }}:00'
+    - service: switch.turn_off
+      entity_id:
+        - switch.my_smart_plug_mini

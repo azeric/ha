@@ -1,0 +1,18 @@
+#Groups
+  Thermostat:
+    name: Thermostat
+    entities:  
+    - climate.barn
+
+  System:
+    name: System
+    entities:
+    - sensor.cpu_use
+
+#Tabs
+
+  SystemView:
+    name: System
+    view: yes
+    entities:
+    - group.system

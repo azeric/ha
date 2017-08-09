@@ -1,0 +1,133 @@
+homeassistant:
+  name: Barn
+  customize: !include customize.yaml
+  packages: !include_dir_named packages
+  latitude: !secret latitude_barn
+  longitude: !secret longitude_barn
+  elevation: 101
+  unit_system: imperial
+  time_zone: America/New_York
+  temperature_unit: F
+
+# Show links to resources in log and frontend
+frontend:
+logbook:
+updater:
+config:
+sun:
+#discovery:
+history:
+group: !include groups.yaml
+
+http:
+  api_password: !secret http_password
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+
+zone:
+  name: Barn
+  latitude: !secret latitude_barn
+  longitude: !secret longitude_barn
+  radius: 150
+  icon: mdi:domain
+
+zone 2:
+  name: City
+  latitude: !secret latitude_city
+  longitude: !secret longitude_city
+  radius: 150
+  icon: mdi:domain
+
+# Weather Prediction
+sensor:
+  - platform: darksky
+    api_key: !secret dark_sky_key
+    monitored_conditions:
+      - summary
+      - icon
+      - temperature
+      - apparent_temperature
+      - humidity
+      - precip_probability
+      - precip_intensity
+      - wind_speed
+      - wind_bearing
+  - platform: systemmonitor
+    resources:
+      - type: processor_use
+      - type: disk_free
+        arg: /media
+      - type: since_last_boot
+      - type: memory_free
+  - platform: apcupsd
+    resources:
+      - loadpct
+      - bcharge
+      - timeleft
+  - platform: google_travel_time
+    name: To Barn
+    api_key: !secret google_api_key
+    origin: zone.City
+    destination: zone.Barn
+  - platform: google_travel_time
+    name: To City   
+    api_key: !secret google_api_key
+    origin: zone.Barn
+    destination: zone.City
+  - platform: template
+    sensors:
+      beaker:
+        value_template:  '{% if is_state("device_tracker.beaker", "home") %} Online {% else %} Offline {%- endif %}'    
+      ashleighsipad:
+        value_template:  '{% if is_state("device_tracker.ashleighsipad", "home") %} Online {% else %} Offline {%- endif %}'
+  - platform: mqtt
+    name: Ericc's Mood"
+    state_topic: "home-assistant/ericc/mood"
+
+climate:
+   platform: honeywell
+   username: !secret thermostat_name
+   password: !secret thermostat_password
+   region: us
+   scan_interval: 600
+   heat_away_temperature: 51
+
+camera:
+ - platform: zoneminder
+   name: Barn Outside
+
+camera 2:
+ - platform: generic
+   still_image_url: https://511ny.org/map/Cctv/4616569--17
+   name: West Side Highway at 158th
+
+camera 3:
+ - platform: generic
+   still_image_url: https://511ny.org/map/Cctv/muuvdoatpie--13
+   name: Saw Mill River
+
+zoneminder:
+  host: !secret zoneminder_url
+  ssl: false
+  username: !secret zoneminder_username
+  password: !secret zoneminder_password
+
+device_tracker:
+  - platform: asuswrt
+    host: !secret router_ip
+    username: !secret router_username
+    password: !secret router_password
+    track_new_devices: yes
+    protocol: telnet
+
+apcupsd:
+  host: !secret apc_host
+  port: !secret acp_port
+
+mqtt:
+
+switch:
+  - platform: tplink
+    host: !secret tplink_host
+#camera: !include cameras.yaml
+automation: !include_dir_merge_list automation
