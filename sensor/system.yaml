@@ -1,0 +1,12 @@
+- platform: systemmonitor
+  resources:
+    - type: processor_use
+    - type: disk_free
+      arg: /media
+    - type: since_last_boot
+    - type: memory_free
+- platform: apcupsd
+  resources:
+    - loadpct
+    - bcharge
+    - timeleft

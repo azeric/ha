@@ -87,7 +87,14 @@ mqtt:
 switch:
   - platform: tplink
     host: !secret tplink_host
-#camera: !include cameras.yaml
+
+panel_custom:
+  - name: floorplan
+    sidebar_title: Floorplan
+    sidebar_icon: mdi:home
+    url_path: floorplan
+    config: !include floorplan.yaml
+
 automation: !include_dir_merge_list automation
 group: !include groups.yaml
 sensor: !include_dir_merge_list sensor

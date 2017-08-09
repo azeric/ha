@@ -1,0 +1,10 @@
+- platform: google_travel_time
+  name: To Barn
+  api_key: !secret google_api_key
+  origin: zone.City
+  destination: zone.Barn
+- platform: google_travel_time
+  name: To City
+  api_key: !secret google_api_key
+  origin: zone.Barn
+  destination: zone.City

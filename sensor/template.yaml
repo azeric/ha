@@ -1,0 +1,6 @@
+- platform: template
+  sensors:
+    beaker:
+      value_template:  '{% if is_state("device_tracker.beaker", "home") %} Online {% else %} Offline {%- endif %}'
+    ashleighsipad:
+      value_template:  '{% if is_state("device_tracker.ashleighsipad", "home") %} Online {% else %} Offline {%- endif %}'
