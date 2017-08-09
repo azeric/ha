@@ -39,8 +39,8 @@ groups:
 
   - name: temp_round
     entities:
-      - sensor.downstairs_thermostat_humidity
-      - sensor.upstairs_thermostat_humidity
+#      - sensor.downstairs_thermostat_humidity
+#      - sensor.upstairs_thermostat_humidity
       - sensor.dark_sky_humidity
     text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'
     class_template: 'return "static-temp";'
