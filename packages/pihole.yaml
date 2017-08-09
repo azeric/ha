@@ -30,7 +30,7 @@ homeassistant:
 #-------------------------------------------
 sensor:
   - platform: pi_hole
-    host: !secrets pi_hole_host
+    host: !secret pi_hole_host
     monitored_conditions:
       - dns_queries_today
       - ads_blocked_today
