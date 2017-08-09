@@ -71,17 +71,17 @@
      guidetolerance="10"
      id="namedview1002"
      inkscape:current-layer="svg559"
-     inkscape:cx="453.59753"
-     inkscape:cy="303.7218"
+     inkscape:cx="384.52187"
+     inkscape:cy="415.73638"
      inkscape:guide-bbox="true"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-height="1017"
+     inkscape:window-height="1057"
      inkscape:window-maximized="1"
      inkscape:window-width="1920"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
-     inkscape:zoom="1.0712891"
+     inkscape:zoom="2.1425782"
      objecttolerance="10"
      pagecolor="#ffffff"
      showgrid="false"
@@ -1193,12 +1193,7 @@
        d="M315.6,477.3h97c1.6,0,2.8,1.3,2.8,2.8v6.4c0,1.6-1.3,2.8-2.8,2.8h-97   c-1.6,0-2.8-1.3-2.8-2.8v-6.4C312.8,478.5,314.1,477.3,315.6,477.3z" /><path
        id="cover.small_garage"
        class="st28"
-       d="M443.5,457.2h42.7c1.6,0,2.8,1.3,2.8,2.8v6.4c0,1.6-1.3,2.8-2.8,2.8h-42.7   c-1.6,0-2.8-1.3-2.8-2.8V460C440.7,458.4,441.9,457.2,443.5,457.2z" /><g
-       id="sensor.dark_sky_temperature"
-       transform="translate(23.237832,6.8312106)"><text
-         id="text957"
-         transform="translate(192.344,62.0462)">XX</text>
-</g><text
+       d="M443.5,457.2h42.7c1.6,0,2.8,1.3,2.8,2.8v6.4c0,1.6-1.3,2.8-2.8,2.8h-42.7   c-1.6,0-2.8-1.3-2.8-2.8V460C440.7,458.4,441.9,457.2,443.5,457.2z" /><text
        class="st28 st3 st31"
        id="device_tracker.carlo"
        inkscape:label="#text4437"
@@ -1238,8 +1233,9 @@
        id="climate.upstairs"
        transform="translate(21.68449,126.0939)"
        inkscape:label="#climate.upstairs"><text
-         id="text957-6-0"
-         transform="matrix(1 0 0 1 141.943 35.4332)">XX</text>
+         id="sensor.dark_sky_temperature"
+         transform="matrix(1 0 0 1 141.943 35.4332)"
+         inkscape:label="#text957-6-0">XX</text>
 </g><text
        id="sensor.dark_sky_humidity"
        inkscape:label="#text960-2-4"
@@ -1317,4 +1313,14 @@
        id="_x31__8_"><path
          class="st21"
          d="M225.3,377.1c-3.6,3.6-3.6,9.3,0,12.9c3.6,3.6,9.3,3.6,12.9,0l15.2-15.2l-12.9-12.9L225.3,377.1z     M247.8,367.5c3.6,3.6,7.4,5.4,11,1.8L246,356.5C242.4,360,244.3,364,247.8,367.5z M252,349.9c0,2,0,0.9,0,2.9    c5.4,0,9.8,4.4,9.8,9.8h2.9C264.6,355.6,258.9,349.9,252,349.9z M252,355.7c0,2.6,0,0.9,0,2.9c2.2,0,4,1.8,4,4c2.2,0,0.2,0,2.9,0    C258.9,358.7,255.8,355.7,252,355.7z"
-         id="path4478" /></g></g></svg>
+         id="path4478" /></g></g><text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="210.49406"
+     y="68.864197"
+     id="text4866"><tspan
+       sodipodi:role="line"
+       id="tspan4864"
+       x="210.49406"
+       y="68.864197"> </tspan></text>
+</svg>
