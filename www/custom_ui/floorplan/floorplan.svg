@@ -76,10 +76,10 @@
      inkscape:guide-bbox="true"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-height="1057"
+     inkscape:window-height="1017"
      inkscape:window-maximized="1"
      inkscape:window-width="1920"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:zoom="2.1425782"
      objecttolerance="10"
@@ -1222,8 +1222,9 @@
        id="climate.downstairs"
        transform="translate(21.312394,67.123371)"
        inkscape:label="#climate.downstairs"><text
-         id="text957-6"
-         transform="matrix(1 0 0 1 13.1829 95.6504)">XX</text>
+         id="climate.barn_temperature"
+         transform="matrix(1 0 0 1 13.1829 95.6504)"
+         inkscape:label="#text957-6">XX</text>
 </g><text
        id="sensor.downstairs_thermostat_humidity"
        inkscape:label="#text960-2"
