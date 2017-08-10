@@ -33,7 +33,6 @@ devices:
   entities:
   - sensor.beaker
   - sensor.ashleighsipad
-  - sensor.inside_temp
 
 #tabs
 default_view:

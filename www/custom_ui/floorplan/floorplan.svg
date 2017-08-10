@@ -1222,7 +1222,7 @@
        id="climate.downstairs"
        transform="translate(21.312394,67.123371)"
        inkscape:label="#climate.downstairs"><text
-         id="inside_temp"
+         id="sensor.inside_temp"
          transform="matrix(1 0 0 1 13.1829 95.6504)"
          inkscape:label="#text957-6">XX</text>
 </g><text
