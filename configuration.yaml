@@ -89,7 +89,8 @@ switch:
     host: !secret tplink_host
 
 media_player:
-  - platform: sonos  
+  - platform: sonos
+  - platform: roku  
 
 panel_custom:
   - name: floorplan
