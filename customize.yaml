@@ -1,22 +1,11 @@
 #SENSORS
-sensor.dark_sky_summary:
-  friendly_name: Conditions
-sensor.dark_sky_temperature:
-  friendly_name: Temp
-sensor.dark_sky_apparent_temperature:
-  friendly_name: Feels Like
-sensor.dark_sky_humidity:
-  friendly_name: Humidity
+
 sensor.dark_sky_precip_probability:
   friendly_name: Rain Probability
 sensor.dark_sky_precip_intensity:
   friendly_name: Rainfall
 sensor.dark_sky_hourly_summary:
   friendly_name: Today
-sensor.dark_sky_daily_high_temperature:
-  friendly_name: Today's High
-sensor.dark_sky_daily_low_temperature:
-  friendly_name: Today's Low
 climate.barn:
   friendly_name: Current
   icon: mdi:thermometer
