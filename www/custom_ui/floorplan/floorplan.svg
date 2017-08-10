@@ -1426,14 +1426,14 @@
            style="font-size:15.03040028px;font-family:HelveticaNeue-Bold;fill:#ffffa6">XX</text>
 </g></g><g
        id="climate.downstairs"
-       transform="translate(60.984225,63.856279)"
+       transform="translate(60.984225,65.723189)"
        inkscape:label="#climate.downstairs"><text
          id="climate.barn"
          transform="translate(13.1829,95.6504)"
          inkscape:label="#text957-6">XX</text>
 </g><g
        id="climate.upstairs"
-       transform="translate(21.68449,126.56063)"
+       transform="translate(18.417398,127.96081)"
        inkscape:label="#climate.upstairs"><text
          id="sensor.dark_sky_temperature"
          inkscape:label="#text957-6-0"
