@@ -12,7 +12,7 @@ sensor.dark_sky_precip_probability:
 sensor.dark_sky_hourly_summary:
   friendly_name: Daily summary
 sensor.dark_sky_temperature_max:
-  friendly_name: Today's Highway
+  friendly_name: Today's High
 sensor.dark_sky_temperature_min:
   friendly_name: Today's Low
 climate.barn:
