@@ -7,3 +7,4 @@
     outside_temp:
       value_template: '{{ states.sensor.dark_sky_temperature.state | round(0)}}'
       unit_of_measurement: '°F'
+      friendly_name: 'Temp'
