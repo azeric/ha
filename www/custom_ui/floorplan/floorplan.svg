@@ -1238,7 +1238,7 @@
          transform="matrix(1 0 0 1 141.943 35.4332)"
          inkscape:label="#text957-6-0">XX</text>
 </g><text
-       id="sensor.dark_sky_humidity"
+       id="sensor.inside_temp"
        inkscape:label="#text960-2-4"
        x="225.0211"
        y="162.32643">XX</text>
