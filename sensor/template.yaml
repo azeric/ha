@@ -5,4 +5,4 @@
     ashleighsipad:
       value_template:  '{% if is_state("device_tracker.ashleighsipad", "home") %} Online {% else %} Offline {%- endif %}'
     outside_temp:
-      value_template: '{{ sensor.dark_sky_temperature | round(0) }}'
+      value_template: '{{ states.sensor.dark_sky_temperatur.state | round(0) }}'
