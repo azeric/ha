@@ -3,7 +3,6 @@ sensor.dark_sky_summary:
   friendly_name: Conditions
 sensor.dark_sky_temperature:
   friendly_name: Temp
-  text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'
 sensor.dark_sky_apparent_temperature:
   friendly_name: Feels Like
 sensor.dark_sky_humidity:

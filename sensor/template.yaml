@@ -4,3 +4,5 @@
       value_template:  '{% if is_state("device_tracker.beaker", "home") %} Online {% else %} Offline {%- endif %}'
     ashleighsipad:
       value_template:  '{% if is_state("device_tracker.ashleighsipad", "home") %} Online {% else %} Offline {%- endif %}'
+    outside_temp:
+      value_template: '{% sensor.dark_sky_temperature.state ? Math.ceil(sensor.dark_sky_temperature) : "undefined" %}'
