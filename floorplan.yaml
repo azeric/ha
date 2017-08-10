@@ -26,7 +26,7 @@ groups:
 
   - name: thermostats_temp
     entities:
-      - sensor.inside_temp
+      - climate.barn
     text_template: '${entity.attributes.current_temperature ? Math.ceil(entity.attributes.current_temperature) + "°": "undefined"}'
     class_template: 'return "static-temp";'
 
