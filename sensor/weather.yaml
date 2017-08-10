@@ -5,8 +5,8 @@
     - icon
     - temperature
     - apparent_temperature
-    - humidity
     - precip_probability
     - precip_intensity
-    - wind_speed
-    - wind_bearing
+    - temperature_max
+    - temperature_min
+    - hourly_summary
