@@ -72,7 +72,7 @@
      id="namedview1002"
      inkscape:current-layer="svg559"
      inkscape:cx="384.52187"
-     inkscape:cy="415.73638"
+     inkscape:cy="341.05999"
      inkscape:guide-bbox="true"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
@@ -1222,7 +1222,7 @@
        id="climate.downstairs"
        transform="translate(21.312394,67.123371)"
        inkscape:label="#climate.downstairs"><text
-         id="group.thermostat"
+         id="inside_temp"
          transform="matrix(1 0 0 1 13.1829 95.6504)"
          inkscape:label="#text957-6">XX</text>
 </g><text
@@ -1323,5 +1323,5 @@
        sodipodi:role="line"
        id="tspan4864"
        x="210.49406"
-       y="68.864197"> </tspan></text>
+       y="68.864197" /></text>
 </svg>

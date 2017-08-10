@@ -82,8 +82,8 @@ groups:
 
   - name: Family
     entities:
-      - device_tracker.carlo
-      - device_tracker.stacey
+      - device_tracker.eric
+      - device_tracker.ashleigh
     text_template: '${entity.state ? entity.state.replace("not_home", "away") : "undefined"}'
 
     states:
