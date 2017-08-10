@@ -5,4 +5,4 @@
     ashleighsipad:
       value_template:  '{% if is_state("device_tracker.ashleighsipad", "home") %} Online {% else %} Offline {%- endif %}'
     inside_temp:
-      value_template: '{{states.climate.barn.attributes.temperature}}'
+      value_template: '{{states.climate.barn.attributes.current_temperature}}'
