@@ -11,8 +11,8 @@
     temp_high:
       value_template: '{{ states.sensor.dark_sky_daily_high_temperature.state | round(0) }}'
       unit_of_measurement: '°F'
-      friendly_name: 'Today's High'
+      friendly_name: "Today's High"
     temp_low:
       value_template: '{{ states.sensor.dark_sky_daily_low_temperature.state | round(0) }}'
       unit_of_measurement: '°F'
-      friendly_name: 'Today's Low'
+      friendly_name: "Today's Low"
