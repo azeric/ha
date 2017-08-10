@@ -27,14 +27,14 @@ groups:
   - name: thermostats_temp
     entities:
       - climate.barn
-      - sensor.temp_high
-      - sensor.temp_low
     text_template: '${entity.attributes.current_temperature ? Math.ceil(entity.attributes.current_temperature) + "°": "undefined"}'
     class_template: 'return "static-temp";'
 
   - name: temp_darksky
     entities:
       - sensor.dark_sky_temperature
+      - sensor.temp_high
+      - sensor.temp_low
     text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
     class_template: 'return "static-temp";'
 
