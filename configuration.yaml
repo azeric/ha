@@ -88,6 +88,9 @@ switch:
   - platform: tplink
     host: !secret tplink_host
 
+media_player:
+  - platform: sonos
+
 panel_custom:
   - name: floorplan
     sidebar_title: Floorplan
