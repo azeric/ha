@@ -31,8 +31,9 @@ traveltimes:
 devices:
   name: Network Devices
   entities:
-  - sensor.beaker  
+  - sensor.beaker
   - sensor.ashleighsipad
+  - sensor.inside_temp
 
 #tabs
 default_view:
