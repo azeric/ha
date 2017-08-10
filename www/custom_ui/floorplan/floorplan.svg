@@ -90,8 +90,8 @@
      guidetolerance="10"
      id="namedview1002"
      inkscape:current-layer="Automation"
-     inkscape:cx="384.52187"
-     inkscape:cy="378.39819"
+     inkscape:cx="377.05423"
+     inkscape:cy="384.93237"
      inkscape:guide-bbox="true"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
@@ -1426,19 +1426,19 @@
            style="font-size:15.03040028px;font-family:HelveticaNeue-Bold;fill:#ffffa6">XX</text>
 </g></g><g
        id="climate.downstairs"
-       transform="translate(53.983313,63.389552)"
+       transform="translate(60.984225,63.856279)"
        inkscape:label="#climate.downstairs"><text
-         id="sensor.inside_temp"
+         id="climate.barn"
          transform="translate(13.1829,95.6504)"
          inkscape:label="#text957-6">XX</text>
 </g><g
        id="climate.upstairs"
-       transform="translate(21.68449,126.0939)"
+       transform="translate(21.68449,126.56063)"
        inkscape:label="#climate.upstairs"><text
          id="sensor.dark_sky_temperature"
          inkscape:label="#text957-6-0"
-         x="184.41519"
-         y="33.099564">XX</text>
+         x="186.74883"
+         y="32.166107">XX</text>
 </g></g><g
      id="Button_Overlay"><path
        id="Refresh_Button"
