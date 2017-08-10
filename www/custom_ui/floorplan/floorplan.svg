@@ -89,7 +89,7 @@
      gridtolerance="10"
      guidetolerance="10"
      id="namedview1002"
-     inkscape:current-layer="Automation"
+     inkscape:current-layer="svg559"
      inkscape:cx="377.05423"
      inkscape:cy="384.93237"
      inkscape:guide-bbox="true"
@@ -933,18 +933,21 @@
            style="fill-opacity:1.0" /><text
            id="text837"
            class="st2 st23 st4"
-           x="33.606407"
-           y="137.81007"
-           style="font-size:17.93000031px;font-family:Helvetica;fill:#ffffa6;fill-opacity:1.0">Inside Temp</text>
+           x="28.620634"
+           y="142.60597"
+           style="font-size:15.23062134px;font-family:Helvetica;fill:#ffffa6;fill-opacity:1;stroke-width:0.84944904"
+           transform="scale(1.0345186,0.96663317)">Inside </text>
 <path
            id="rect348"
            class="st1"
            d="M160.5,120.4H270c3.7,0,6.7,4.9,6.7,9.8v31.7c0,4.8-3,7.8-6.7,7.8H160.5     c-3.7,0-6.7-3.9-6.7-8.8v-31.7C153.8,124.3,156.8,120.4,160.5,120.4z"
            style="fill-opacity:1.0" /><text
            id="text843"
-           transform="translate(161.9286,138.2629)"
            class="st2 st23 st4"
-           style="font-size:17.93000031px;font-family:Helvetica;fill:#ffffa6;fill-opacity:1.0">Outside Temp</text>
+           style="font-size:15.57795048px;font-family:Helvetica;fill:#ffffa6;fill-opacity:1;stroke-width:0.86882043"
+           x="83.735046"
+           y="145.77284"
+           transform="scale(1.0540233,0.94874566)">Outside </text>
 </g></g><a
        id="a4487"
        xlink:href="/"
@@ -1429,16 +1432,17 @@
        transform="translate(60.984225,65.723189)"
        inkscape:label="#climate.downstairs"><text
          id="climate.barn"
-         transform="translate(13.1829,95.6504)"
-         inkscape:label="#text957-6">XX</text>
+         inkscape:label="#text957-6"
+         x="-21.821657"
+         y="94.250221">XX</text>
 </g><g
        id="climate.upstairs"
        transform="translate(18.417398,127.96081)"
        inkscape:label="#climate.upstairs"><text
          id="sensor.dark_sky_temperature"
          inkscape:label="#text957-6-0"
-         x="186.74883"
-         y="32.166107">XX</text>
+         x="85.935699"
+         y="33.099564">XX</text>
 </g></g><g
      id="Button_Overlay"><path
        id="Refresh_Button"
@@ -1521,4 +1525,28 @@
        id="tspan4864"
        x="210.49406"
        y="68.864197" /></text>
+<text
+     id="text843-7"
+     class="st2 st23 st4"
+     style="font-size:15.57795048px;font-family:Helvetica;fill:#ffffa6;fill-opacity:1;stroke-width:0.86882043"
+     x="209.55807"
+     y="57.502228"
+     transform="scale(1.0540233,0.94874564)">High</text>
+<text
+     id="text843-7-9"
+     class="st2 st23 st4"
+     style="font-size:15.57795048px;font-family:Helvetica;fill:#ffffa6;fill-opacity:1;stroke-width:0.86882043"
+     x="208.81966"
+     y="94.230682"
+     transform="scale(1.0540233,0.94874564)">Low</text>
+<text
+     id="sensor.temp_low"
+     inkscape:label="#text957-6-0"
+     x="227.47079"
+     y="105.43069">XX</text>
+<text
+     id="sensor.temp_high"
+     inkscape:label="#text957-6-0"
+     x="228.40427"
+     y="73.226494">XX</text>
 </svg>
