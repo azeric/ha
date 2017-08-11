@@ -2,5 +2,5 @@ alias: Jarvis Greeting
 sequence:
   - service: tts.google_say
     data:
-      entity_id: media_player.sonos
+      entity_id: climate.barn
       message: Hello from Home Assistant
