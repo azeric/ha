@@ -44,6 +44,8 @@ default_view:
   - camera.barninside
   - camera.barnoutside
   - switch.my_smart_plug_mini
+  - script.greeting
+  - sun.sun
 Travel:
   name: Travel
   view: true
