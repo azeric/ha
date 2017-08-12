@@ -47,6 +47,7 @@ default_view:
   - script.greeting
   - sun.sun
   - media_player.patio
+  - media_player.living_room
 Travel:
   name: Travel
   view: true
