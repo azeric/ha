@@ -46,6 +46,7 @@ default_view:
   - switch.my_smart_plug_mini
   - script.greeting
   - sun.sun
+  - media_player.patio
 Travel:
   name: Travel
   view: true
