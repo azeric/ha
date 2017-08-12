@@ -90,7 +90,7 @@ switch:
 
 media_player:
   - platform: sonos
-    host: 192.168.1.209
+    hosts: 192.168.1.209
 
 tts:
   - platform: google
