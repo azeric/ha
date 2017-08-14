@@ -49,6 +49,7 @@ default_view:
   - media_player.patio
   - media_player.living_room
   - sensor.ericcs_mood
+  - sensor.front_door
 Travel:
   name: Travel
   view: true

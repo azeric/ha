@@ -5,5 +5,3 @@
 - platform: mqtt
   name: Front Door
   state_topic: "pi/front_door"
-  payload_on: "open"
-  payload_off: "closed"
