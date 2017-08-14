@@ -48,6 +48,7 @@ default_view:
   - sun.sun
   - media_player.patio
   - media_player.living_room
+  - sensor.ericcs_mood
 Travel:
   name: Travel
   view: true
