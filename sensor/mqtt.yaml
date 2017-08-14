@@ -1,3 +1,9 @@
 - platform: mqtt
   name: Ericc's Mood"
   state_topic: "home-assistant/ericc/mood"
+
+- platform: mqtt
+  name: Front Door
+  state_topic: "pi/front_door"
+  payload_on: "open"
+  payload_off: "closed"
