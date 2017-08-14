@@ -20,7 +20,6 @@ history:
 
 http:
   api_password: !secret http_password
-  # Uncomment this if you are using SSL or running in Docker etc
   base_url: www.angrylab.com:8123
   trusted_networks:
     - 192.168.1.0/24
@@ -83,6 +82,8 @@ apcupsd:
   port: !secret apc_port
 
 mqtt:
+  broker: 192.168.1.211
+  protocol: 3.1
 
 switch:
   - platform: tplink
