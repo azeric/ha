@@ -34,6 +34,7 @@ devices:
   entities:
   - sensor.beaker
   - sensor.ashleighsipad
+  - sensor.raspberrypi
 
 #tabs
 default_view:
@@ -64,4 +65,4 @@ SystemView:
   - group.system
   - group.ups
   - group.devices
-  - group.pihole
+  #- group.pihole
