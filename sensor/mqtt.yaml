@@ -1,3 +1,0 @@
-- platform: mqtt
-  name: "Ericc's Mood"
-  state_topic: "home-assistant/ericc/mood"
