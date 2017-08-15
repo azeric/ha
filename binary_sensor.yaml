@@ -8,26 +8,24 @@
   payload_off: "Closed"
   device_class: opening
 
-#
-#
 - platform: mqtt
   state_topic: "pi/bilco_door"
   name: "Bilco Door"
   payload_on: "Open"
   payload_off: "Closed"
   device_class: opening
-#
-# platform: mqtt
-# state_topic: "pi/porch_door"
-# name: "Porch Door"
-# payload_on: "Open"
-# payload_off: "Closed"
-# device_class: opening
-#
-# #windows
-# platform: mqtt
-# state_topic: "pi/basement_window_nw"
-# name: "Basement Window NW"
-# payload_on: "Open"
-# payload_off: "Closed"
-# device_class: opening
+
+- platform: mqtt
+  state_topic: "pi/porch_door"
+  name: "Porch Door"
+  payload_on: "Open"
+  payload_off: "Closed"
+  device_class: opening
+
+#windows
+- platform: mqtt
+  state_topic: "pi/basement_window_nw"
+  name: "Basement Window NW"
+  payload_on: "Open"
+  payload_off: "Closed"
+  device_class: opening

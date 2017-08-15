@@ -1,6 +1,0 @@
-platform: mqtt
-state_topic: "pi/front_door"
-name: "Front Door"
-payload_on: "Open"
-payload_off: "Closed"
-device_class: opening
