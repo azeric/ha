@@ -1,15 +1,10 @@
 #groups
+
+#Main Tab
 Thermostat:
   name: Thermostat
   entities:
   - climate.barn
-System:
-  name: System
-  entities:
-  - sensor.cpu_use
-  - sensor.ram_free
-  - sensor.disk_free_media
-  - sensor.since_last_boot
 Weather:
   entities:
   - sensor.dark_sky_hourly_summary
@@ -18,18 +13,31 @@ Weather:
   - sensor.temp_low
   - sensor.dark_sky_precip_probability
   - sensor.dark_sky_precip_intensity
+Alarms:
+  entities:
+  - binary_sensor: front_door
 
+#Travel Tab
+Traveltimes:
+  name: Travel Times
+  entities:
+  - sensor.to_barn
+  - sensor.to_city
+
+# System Tab
+System:
+  name: System
+  entities:
+  - sensor.cpu_use
+  - sensor.ram_free
+  - sensor.disk_free_media
+  - sensor.since_last_boot
 UPS:
   entities:
   - sensor.ups_load
   - sensor.ups_battery
   - sensor.ups_time_left
-traveltimes:
-  name: Travel Times
-  entities:
-  - sensor.to_barn
-  - sensor.to_city
-devices:
+Devices:
   name: Network Devices
   entities:
   - sensor.beaker
@@ -42,6 +50,7 @@ default_view:
   entities:
   - group.weather
   - group.thermostat
+  - group.Alarms
   - camera.barninside
   - camera.barnoutside
   - switch.my_smart_plug_mini
@@ -50,19 +59,18 @@ default_view:
   - media_player.patio
   - media_player.living_room
   - sensor.ericcs_mood
-  - sensor.front_door
 Travel:
   name: Travel
   view: true
   entities:
-  - group.traveltimes
+  - group.Traveltimes
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
 SystemView:
   name: System
   view: true
   entities:
-  - group.system
-  - group.ups
-  - group.devices
+  - group.System
+  - group.UPS
+  - group.Devices
   #- group.pihole
