@@ -89,16 +89,16 @@
      gridtolerance="10"
      guidetolerance="10"
      id="namedview1002"
-     inkscape:current-layer="svg559"
-     inkscape:cx="377.05423"
-     inkscape:cy="384.93237"
+     inkscape:current-layer="Automation"
+     inkscape:cx="336.44894"
+     inkscape:cy="198.2414"
      inkscape:guide-bbox="true"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-height="1017"
      inkscape:window-maximized="1"
      inkscape:window-width="1920"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:zoom="2.1425782"
      objecttolerance="10"
@@ -1371,7 +1371,7 @@
          inkscape:label="#rect449"
          class="st19"
          d="M424.9,345.9l0,1.7c0,1.1-0.8,2-1.8,2l-15.4,0    c-1,0-1.8-0.9-1.8-2l0-1.7c0-1.1,0.8-2,1.8-2l15.4,0C424.1,343.8,424.9,344.7,424.9,345.9z" /><path
-         id="binary_sensor.mcu1_gpio5"
+         id="binary_sensor.front_door"
          inkscape:label="#rect449"
          class="st19"
          d="M654.8,444.6l0,1.7c0,1.1-2.1,2-4.7,2l-40.8,0    c-2.6,0-4.8-0.9-4.8-2l0-1.7c0-1.1,2.1-2,4.7-2l40.8,0C652.7,442.6,654.8,443.5,654.8,444.6z" /><path
@@ -1542,11 +1542,11 @@
 <text
      id="sensor.temp_low"
      inkscape:label="#text957-6-0"
-     x="227.47079"
-     y="105.43069">XX</text>
+     x="227.00407"
+     y="107.76432">XX</text>
 <text
      id="sensor.temp_high"
      inkscape:label="#text957-6-0"
      x="228.40427"
-     y="73.226494">XX</text>
+     y="76.026855">XX</text>
 </svg>
