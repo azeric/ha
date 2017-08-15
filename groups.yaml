@@ -15,7 +15,7 @@ Weather:
   - sensor.dark_sky_precip_intensity
 Alarms:
   entities:
-  - binary_sensor: front_door
+  - binary_sensor.front_door
 
 #Travel Tab
 Traveltimes:
