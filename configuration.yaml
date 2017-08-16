@@ -112,9 +112,9 @@ tts:
   - platform: google
 
 shell_command:
-  - snapshot: python /config/alarmsnapshot.py
-  - cookie: curl -d "username="!secret zoneminder_username"&password="!secret zoneminder_password"&action=login&view=console" -c /config/cookies.txt  https://"!secret zoneminder_url"/zm/index.php
-  - modect: curl -XPOST "https://"!secret zoneminder_url"/zm/api/monitors/3.json" -d "Monitor[Function]=Modect&Monitor[Enabled]=1"
+  snapshot: python /config/alarmsnapshot.py
+  cookie: curl -d "username="!secret zoneminder_username"&password="!secret zoneminder_password"&action=login&view=console" -c /config/cookies.txt  https://"!secret zoneminder_url"/zm/index.php
+  modect: curl -XPOST "https://"!secret zoneminder_url"/zm/api/monitors/3.json" -d "Monitor[Function]=Modect&Monitor[Enabled]=1"
 
 panel_custom:
   - name: floorplan
