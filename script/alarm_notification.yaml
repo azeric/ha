@@ -1,3 +1,11 @@
+######################################################################################################
+###Script to send notifications to the ChromeCast Audios during normal hours and only when we are home! Call like this:
+  # action:
+    # service: script.dog_bark
+    # data_template:
+      # value1: 'Startup: Home Assistant is Up and Running!'
+
+######################################################################################################
 alarm_notification:
   alias: Burglar Alarm
   sequence:
