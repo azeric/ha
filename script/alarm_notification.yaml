@@ -10,7 +10,8 @@ alarm_notification:
   alias: Burglar Alarm
   sequence:
       - service: notify.gmail
-        data:
+        data_template:
+          message: 'Front Door Alarm Triggered'
+          data:
             title: 'Front Door Alarm'
-            #message: 'Front Door Alarm Triggered'
             html: '<b>Test</b>'
