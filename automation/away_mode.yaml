@@ -1,0 +1,13 @@
+- alias: Away Mode
+  trigger:
+    - platform: state
+      entity_id: input_boolean.away
+      to: 'on'
+      from: 'off'
+    - platform: state
+      entity_id: binary_sensor.front_door
+      to: 'on'
+      from: 'off'
+
+    action:
+      - service: script.notification.yaml
