@@ -9,5 +9,5 @@
       to: 'on'
       from: 'off'
 
-    action:
-      - service: script.notification.yaml
+  action:
+    - service: script.notification.yaml
