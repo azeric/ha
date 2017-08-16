@@ -9,9 +9,9 @@
 alarm_notification:
   alias: Burglar Alarm
   sequence:
-    - service: shell_command.snapshot
-    - delay:
-          seconds: 1
+#    - service: shell_command.snapshot
+#    - delay:
+#          seconds: 1
     - service: notify.gmail
       data_template:
           message: 'Intruder alert at barn!!'

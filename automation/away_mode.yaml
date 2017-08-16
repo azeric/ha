@@ -11,3 +11,7 @@
 
   action:
     - service: script.alarm_notification
+    - service: persistent_notification.create
+      data:
+        message: "alarm triggered"
+        title: "Alarm"
