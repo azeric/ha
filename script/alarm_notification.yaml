@@ -12,8 +12,9 @@ alarm_notification:
       - service: notify.gmail
         data:
           title: 'Front Door Alarm'
-          message: '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-            <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+          html:  >
+           <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+              <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
                 <head>
                     <meta charset="UTF-8">
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -57,7 +58,7 @@ alarm_notification:
                 </body>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
-            </html>'
+            </html>
           data:
             images:
               - /www/barn.png
