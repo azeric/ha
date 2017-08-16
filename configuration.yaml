@@ -111,6 +111,9 @@ media_player:
 tts:
   - platform: google
 
+shell_command:
+  snapshot: python /config/alarmsnapshot.py
+
 panel_custom:
   - name: floorplan
     sidebar_title: Floorplan
@@ -123,3 +126,4 @@ group: !include groups.yaml
 sensor: !include_dir_merge_list sensor
 binary_sensor: !include binary_sensor.yaml
 script: !include_dir_named script
+input_boolean: !include_dir_merge_named input_boolean
