@@ -27,6 +27,19 @@ http:
   ip_ban_enabled: True
   login_attempts_threshold: 3
 
+notify:
+  - name: gmail
+    platform: smtp
+    server: smtp.gmail.com
+    port: 587
+    timeout: 15
+    sender: !secret ha_gmail_username
+    encryption: starttls
+    username: !secret gmail_username
+    password: !secret gmail_password
+    recipient: !secret gmail_username
+    sender_name: My Home Assistant
+
 zone:
   name: Barn
   latitude: !secret latitude_barn
