@@ -1,4 +1,4 @@
-alarm:
+alarm_notification:
   alias: Burglar Alarm
   sequence:
     - service: shell_command.snapshot
