@@ -11,6 +11,10 @@
 
   action:
     - service: script.alarm_notification
+    - service: script.cookie
+    - delay:
+        seconds: 1
+    - service: script.modect
     - service: persistent_notification.create
       data:
         message: "alarm triggered"
