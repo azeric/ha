@@ -12,5 +12,5 @@ alarm_notification:
       - service: notify.gmail
         data:
             title: 'Front Door Alarm'
-            message: 'Front Door Alarm Triggered'
+            #message: 'Front Door Alarm Triggered'
             html: '<b>Test</b>'
