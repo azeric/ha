@@ -37,7 +37,7 @@ notify:
     encryption: starttls
     username: !secret gmail_username
     password: !secret gmail_password
-    recipient: !secret gmail_username
+    recipient: !secret ha_gmail_username
     sender_name: My Home Assistant
 
 zone:
