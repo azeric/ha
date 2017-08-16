@@ -89,7 +89,7 @@
      gridtolerance="10"
      guidetolerance="10"
      id="namedview1002"
-     inkscape:current-layer="First_Floor"
+     inkscape:current-layer="Automation"
      inkscape:cx="336.44894"
      inkscape:cy="160.90321"
      inkscape:guide-bbox="true"
@@ -1311,7 +1311,7 @@
          inkscape:label="#rect449"
          class="st19"
          d="M424.9,345.9l0,1.7c0,1.1-0.8,2-1.8,2l-15.4,0    c-1,0-1.8-0.9-1.8-2l0-1.7c0-1.1,0.8-2,1.8-2l15.4,0C424.1,343.8,424.9,344.7,424.9,345.9z" /><path
-         id="binary_sensor.mcu1_gpio5"
+         id="binary_sensor.front_door"
          inkscape:label="#rect449"
          class="st19"
          d="M654.8,444.6l0,1.7c0,1.1-2.1,2-4.7,2l-40.8,0    c-2.6,0-4.8-0.9-4.8-2l0-1.7c0-1.1,2.1-2,4.7-2l40.8,0C652.7,442.6,654.8,443.5,654.8,444.6z" /><path
