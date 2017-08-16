@@ -13,5 +13,4 @@ alarm_notification:
         data_template:
           message: 'Front Door Alarm Triggered'
           title: 'Front Door Alarm'
-          data:
-            html: <b>test</b>
+          html: <b>test</b>
