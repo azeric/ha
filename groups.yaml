@@ -57,6 +57,7 @@ default_view:
   - script.greeting
   - media_player.patio
   - media_player.living_room
+  - input_boolean.away
 Travel:
   name: Travel
   view: true
