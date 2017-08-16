@@ -10,4 +10,4 @@
       from: 'off'
 
   action:
-    - service: script.notification.yaml
+    - service: script.notification
