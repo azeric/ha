@@ -4,7 +4,7 @@
     # service: script.dog_bark
     # data_template:
       # value1: 'Startup: Home Assistant is Up and Running!'
-
+#https://home-assistant.io/components/notify.smtp/
 ######################################################################################################
 alarm_notification:
   alias: Burglar Alarm
@@ -16,7 +16,7 @@ alarm_notification:
       data_template:
           message: 'Intruder alert at barn!!'
           data:
-            images: /config/Monitor3.jpg
+            #images: /config/Monitor3.jpg
             html: >
               <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
               <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
