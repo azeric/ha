@@ -65,6 +65,7 @@ Travel:
   - group.Traveltimes
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
+  - sensor.poughkeepsie_to_grand_central
 SystemView:
   name: System
   view: true
