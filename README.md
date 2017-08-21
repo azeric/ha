@@ -13,3 +13,9 @@ Docker Container running HA
 * Chromecast
 * Roku
 * Zoneminder Cameras
+
+**External Feeds**
+* NY State Traffic Feed Cameras
+* Dark Sky Weather
+* Google Traffic Travel Times
+* Metro North Schedule

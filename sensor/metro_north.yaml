@@ -1,4 +1,6 @@
 - platform: gtfs
-  origin: 1
-  destination: 51
-  data: "metro_north.zip"
+  origin: 51
+  destination: 1
+  data: metro_north.zip
+  name: Poughkeepsie to Grand Central
+  offset: 45
