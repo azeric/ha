@@ -27,7 +27,7 @@ Traveltimes:
 Metronorth:
   name: Metro North
   entities:
-   - sensor.poughkeepsie_to_grand_central
+   - sensor.poughkeepsie_leaving
 
 # System Tab
 System:
