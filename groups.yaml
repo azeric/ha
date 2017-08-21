@@ -24,6 +24,11 @@ Traveltimes:
   - sensor.to_barn
   - sensor.to_city
 
+Metronorth:
+  name: Metro North
+  entities:
+   - sensor.poughkeepsie_to_grand_central
+
 # System Tab
 System:
   name: System
@@ -65,7 +70,7 @@ Travel:
   - group.Traveltimes
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
-  - sensor.poughkeepsie_to_grand_central
+  - group.Metronorth
 SystemView:
   name: System
   view: true
