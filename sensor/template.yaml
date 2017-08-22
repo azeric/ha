@@ -16,6 +16,9 @@
       value_template: '{{ states.sensor.dark_sky_daily_low_temperature.state | round(0) }}'
       unit_of_measurement: '°F'
       friendly_name: "Today's Low"
-    poughkeepsie_leaving:
-      value_template: '{{states.sensor.poughkeepsie_to_grand_central.attributes["Origin Stop Arrival Time"]}}'
+    poughkeepsie_leaving1:
+      value_template: '{{states.sensor.barn_to_city1.attributes["Origin Stop Arrival Time"]}}'
       friendly_name: "Next train leaves Poughkeepsie at: "
+    poughkeepsie_arrives1:
+      value_template: '{{states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]}}'
+      friendly_name: "Next train arrives at Grand Central at: "

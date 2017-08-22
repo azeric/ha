@@ -2,6 +2,14 @@
   origin: 51
   destination: 1
   data: metro_north.zip
-  name: Poughkeepsie to Grand Central
-  options:
-    offset: 0
+  name: barn_to_city1
+  offset:
+    minutes: 45
+
+- platform: gtfs
+  origin: 51
+  destination: 1
+  data: metro_north.zip
+  name: barn_to_city2
+  offset:
+    minutes: 60
