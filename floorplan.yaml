@@ -212,11 +212,7 @@ groups:
   - name: Entry Points
     entities:
       - binary_sensor.front_door
-      - binary_sensor.mcu1_gpio4
-      - binary_sensor.mcu1_gpio5
-      - binary_sensor.mcu1_gpio10
-      - binary_sensor.mcu1_gpio12
-      - binary_sensor.mcu1_gpio13
+      - binary_sensor.bilco_door
       - binary_sensor.mcu1_gpio14
       - binary_sensor.mcu2_gpio4
       - binary_sensor.mcu2_gpio5
