@@ -16,6 +16,8 @@ Weather:
 Alarms:
   entities:
   - binary_sensor.front_door
+  - binary_sensor.basement_door
+  - binary_sensor.bilco_door
 
 #Travel Tab
 Traveltimes:

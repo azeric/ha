@@ -16,6 +16,13 @@
   device_class: opening
 
 - platform: mqtt
+  state_topic: "pi/basement_door"
+  name: "Basement Door"
+  payload_on: "Open"
+  payload_off: "Closed"
+  device_class: opening
+
+- platform: mqtt
   state_topic: "pi/porch_door"
   name: "Porch Door"
   payload_on: "Open"

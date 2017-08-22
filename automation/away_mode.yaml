@@ -2,11 +2,11 @@
   trigger:
     - platform: state
       entity_id: input_boolean.away
-      to: 'off'
-      from: 'on'
+      to: 'on'
+      from: 'off'
     - platform: state
       entity_id: binary_sensor.front_door
-      to: 'on'
+      to: 'on'  #open
       from: 'off'
 
   action:
