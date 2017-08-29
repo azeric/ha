@@ -59,8 +59,8 @@ default_view:
   - group.weather
   - group.thermostat
   - group.Alarms
-  - camera.barninside
-  - camera.barnoutside
+#  - camera.barninside
+#  - camera.barnoutside
   - switch.my_smart_plug_mini
   - script.greeting
   - media_player.patio

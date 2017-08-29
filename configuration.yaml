@@ -76,11 +76,11 @@ camera 3:
    still_image_url: https://511ny.org/map/Cctv/muuvdoatpie--13
    name: Saw Mill River
 
-zoneminder:
-  host: !secret zoneminder_url
-  ssl: false
-  username: !secret zoneminder_username
-  password: !secret zoneminder_password
+#zoneminder:
+#  host: !secret zoneminder_url
+#  ssl: false
+#  username: !secret zoneminder_username
+#  password: !secret zoneminder_password
 
 device_tracker:
   - platform: asuswrt
