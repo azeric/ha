@@ -1,14 +1,13 @@
 ####Turn on heat for Henry
-
+##Every Thursday at 6:00pm
 
 - alias: 'Heat on for Henry'
   trigger:
     platform: time
-    at: "13:55:00"
+    at: "18:00:00"
   condition:
   - condition: time
     weekday:
-      - tue
       - thu
   action:
     - service: climate.set_temperature
