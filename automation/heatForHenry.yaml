@@ -1,0 +1,17 @@
+####Turn on heat for Henry
+
+
+- alias: 'Heat on for Henry'
+  trigger:
+    - platform: time
+      after: '18:00:00'
+  condition:
+    - condition: time
+      weekday:
+        - thu
+  action:
+    service: climate.set_temperature
+    data:
+      entity_id: climate.barn
+      temperature: 76
+      operation_mode: Heat
