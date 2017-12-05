@@ -12,7 +12,7 @@
       - thu
   action:
     - service: climate.set_temperature
-    - data:
+      data:
         entity_id: climate.barn
         temperature: 76
         operation_mode: Heat
