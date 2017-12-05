@@ -1,0 +1,13 @@
+######################################################################################################
+##Noftication that the heat has been turned up automatically.
+######################################################################################################
+alarm_notification:
+  alias: Heat Alarm
+  sequence:
+      - service: notify.gmail
+        data:
+          title: 'Heat Alarm'
+          message: 'The heat has been turned up so Henry stays warm!'
+          data:
+            images:
+              - /config/www/moosebear.jpg

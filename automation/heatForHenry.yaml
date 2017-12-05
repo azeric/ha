@@ -16,4 +16,4 @@
         entity_id: climate.barn
         temperature: 76
         operation_mode: Heat
-    - service: script.alarm_notification
+    - service: script.heat_notification
