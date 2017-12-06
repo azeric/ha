@@ -8,7 +8,7 @@
   condition:
   - condition: time
     weekday:
-      - thu
+      - fri
   action:
     - service: climate.set_temperature
       data:
