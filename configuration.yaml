@@ -33,7 +33,7 @@ notify:
     server: smtp.gmail.com
     port: 587
     timeout: 15
-    sender: !secret ha_gmail_username
+    sender: !secret ha_gmail_username_ericc
     encryption: starttls
     username: !secret gmail_username
     password: !secret gmail_password
