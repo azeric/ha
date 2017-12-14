@@ -4,7 +4,7 @@
 - alias: 'Heat on for Henry'
   trigger:
     platform: time
-    at: "12:58:00"
+    at: "13:00:00"
   condition:
   - condition: time
     weekday:
@@ -14,6 +14,6 @@
     - service: climate.set_temperature
       data:
         entity_id: climate.barn
-        temperature: 52
+        temperature: 50
         operation_mode: Heat
-    - service: script.alarm_notification
+    - service: script.heat_notification

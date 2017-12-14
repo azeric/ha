@@ -10,4 +10,4 @@ alarm_notification:
           message: 'The heat has been turned up so Henry stays warm!'
           data:
             images:
-              - /config/www/moosebear.jpg
+#              - /config/www/moosebear.jpg
