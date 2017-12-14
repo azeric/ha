@@ -4,11 +4,10 @@
 - alias: 'Heat on for Henry'
   trigger:
     platform: time
-    at: "13:52:00"
+    at: "18:00:00"
   condition:
   - condition: time
     weekday:
-      - thu
       - fri
   action:
     - service: climate.set_temperature
