@@ -4,7 +4,7 @@
 - alias: 'Heat on for Henry'
   trigger:
     platform: time
-    at: "13:50:00"
+    at: "13:52:00"
   condition:
   - condition: time
     weekday:

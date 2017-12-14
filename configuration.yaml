@@ -33,12 +33,12 @@ notify:
     server: smtp.gmail.com
     port: 587
     timeout: 15
-    sender: !secret ha_gmail_username_ericc
+    sender: !secret ha_gmail_username_eric
     encryption: starttls
     username: !secret gmail_username
     password: !secret gmail_password
     recipient:
-      - !secret ha_gmail_username_ericc
+      - !secret ha_gmail_username_eric
       - !secret ha_gmail_username_ash
     sender_name: The Barn
 
