@@ -1,7 +1,7 @@
 ######################################################################################################
 ##Noftication that the heat has been turned up automatically.
 ######################################################################################################
-alarm_notification:
+heat_notification:
   alias: Heat Alarm
   sequence:
       - service: notify.gmail
