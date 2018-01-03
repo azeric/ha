@@ -1,14 +1,18 @@
 #SENSORS
-
+#External Weather Sensors
 sensor.dark_sky_precip_probability:
   friendly_name: Rain Probability
 sensor.dark_sky_precip_intensity:
   friendly_name: Rainfall
 sensor.dark_sky_hourly_summary:
   friendly_name: Today
+
+#Thermostat
 climate.barn:
   friendly_name: Current
   icon: mdi:thermometer
+
+#Add Pictures
 sensor.to_barn:
   entity_picture: /local/barn.png
 sensor.to_city:
@@ -19,6 +23,8 @@ sensor.beaker:
 sensor.ashleighsipad:
   entity_picture: /local/kermit.png
   friendly_name: Kermit (iPad)
+
+#Alarm Sensors
 binary_sensor.front_door:
   icon: mdi:glassdoor
 binary_sensor.basement_door:

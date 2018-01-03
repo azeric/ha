@@ -8,12 +8,12 @@
       entity_id: sun.sun
       to: 'below_horizon'
 
-  action:
-    - service: switch.turn_on
-      entity_id:
-        - switch.my_smart_plug_mini
+  #action:
+  #  - service: switch.turn_on
+  #    entity_id:
+  #      - switch.my_smart_plug_mini
 
-- alias: 'Sunset Stuff off'
+- alias: 'Sunrise Stuff off'
   trigger:
     - platform: sun
       event: sunrise
