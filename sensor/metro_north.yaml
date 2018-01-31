@@ -2,7 +2,7 @@
   origin: 51
   destination: 1
   data: metro_north.zip
-  name: poughkeepsie_leaving1
+  name: barn_to_city1
   offset:
     minutes: 45
 
