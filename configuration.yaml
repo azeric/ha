@@ -68,7 +68,7 @@ climate:
 camera:
  - platform: generic
    name: Barn Outside
-   still_image_url: https://camera.angrylab.com/picture/2/current/
+   still_image_url: https://camera.angrylab.com/picture/1/current/
 
 camera 2:
  - platform: generic
