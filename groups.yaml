@@ -53,7 +53,7 @@ Devices:
   - sensor.raspberrypi
 
 #tabs
-Home:
+default_view:
   view: true
   entities:
   - group.weather
