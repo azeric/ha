@@ -26,6 +26,7 @@ http:
     - 127.0.0.1
   ip_ban_enabled: True
   login_attempts_threshold: 3
+  server_port:
 
 notify:
   - name: gmail
@@ -66,8 +67,8 @@ climate:
 
 camera:
  - platform: generic
-   name: Barn Outside
-   still_image_url: https://camera.angrylab.com/picture/2/current/
+   name: Barn Inside
+   still_image_url: http://camera.angrylab.com:8082/
 
 camera 2:
  - platform: generic
