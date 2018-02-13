@@ -70,7 +70,7 @@ camera:
    name: Barn Inside
    username: !secret camera_name
    password: !secret camera_password
-   still_image_url: https://camera.angrylab.com/picture/1/current/
+   still_image_url: http://camera.angrylab.com:8082/picture/1/current/
 
 camera 2:
  - platform: generic
