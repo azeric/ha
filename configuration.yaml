@@ -68,8 +68,8 @@ climate:
 camera:
  - platform: generic
    name: Barn Inside
-   username: ash
-   password: ershleigh
+   username: !secret camera_name
+   password: !secret camera_password
    still_image_url: https://camera.angrylab.com/picture/1/current/
 
 camera 2:
