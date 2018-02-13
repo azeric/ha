@@ -54,6 +54,7 @@ Devices:
 
 #tabs
 default_view:
+  name: Barn
   view: true
   entities:
   - group.weather

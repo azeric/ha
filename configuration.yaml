@@ -1,5 +1,5 @@
 homeassistant:
-  name: Barn
+  #name: Barn
   customize: !include customize.yaml
   packages: !include_dir_named packages
   latitude: !secret latitude_barn
