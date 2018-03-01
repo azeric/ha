@@ -66,12 +66,12 @@ climate:
    heat_away_temperature: 51
 
 camera:
- - platform: generic
+ - platform: mjpeg
    name: Barn Inside
    username: !secret camera_name
    password: !secret camera_password
    authentication: basic
-   still_image_url: http://camera.angrylab.com:8082/picture/1/frame/
+   mjpeg_url: http://camera.angrylab.com:8082/picture/1/frame/
 
 camera 2:
  - platform: generic
