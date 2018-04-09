@@ -1,13 +1,10 @@
 - alias: Away Mode
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: binary_sensor.front_door
     to: 'on'  #open
     from: 'off'
-  condition:
-    condition: state
-    entity_id: input_boolean.away
-    state: 'on'
 
   action:
     #- service: script.alarm_notification
