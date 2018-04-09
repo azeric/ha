@@ -29,3 +29,7 @@ binary_sensor.front_door:
   icon: mdi:glassdoor
 binary_sensor.basement_door:
   icon: mdi:glassdoor
+
+#automation toggles
+automation.friday_heat:
+  icon: mdi:fan
