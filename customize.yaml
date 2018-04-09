@@ -33,3 +33,5 @@ binary_sensor.basement_door:
 #automation toggles
 automation.friday_heat:
   icon: mdi:fan
+automation.away_mode:
+  icon: mdi:home-variant
