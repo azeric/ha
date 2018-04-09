@@ -4,15 +4,20 @@
 - alias: 'Friday Heat'
   trigger:
     platform: time
-    at: "18:00:00"
+    at: "12:15:00"
   condition:
-  - condition: time
-    weekday:
-      - fri
+  - conditions:
+     - condition: time
+       weekday:
+         - mon
+     - condition: state
+       entity_id: 'input_boolean.heat'
+       state: 'on'
+
   action:
     - service: climate.set_temperature
       data:
         entity_id: climate.barn
         temperature: 76
         operation_mode: Heat
-    - service: script.heat_notification
+    #- service: script.heat_notification

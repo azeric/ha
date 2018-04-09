@@ -5,6 +5,7 @@ Thermostat:
   name: Thermostat
   entities:
   - climate.barn
+  - input_boolean.heat
 Weather:
   entities:
   - sensor.dark_sky_hourly_summary
@@ -21,7 +22,6 @@ Alarms:
 Options:
   entities:
   - input_boolean.away
-  - input_boolean.heat
 
 #Travel Tab
 Traveltimes:
