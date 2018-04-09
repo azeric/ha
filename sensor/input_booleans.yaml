@@ -2,3 +2,8 @@ input_boolean.away:
   friendly_name: 'Away Mode'
   emulated_hue: True
   hidden: False
+
+input_boolean.heat:
+  friendly_name: 'Friday Heat'
+  emulated_hue: True
+  hidden: False

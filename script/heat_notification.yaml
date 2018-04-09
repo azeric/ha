@@ -7,7 +7,7 @@ heat_notification:
       - service: notify.gmail
         data:
           title: 'Heat Alarm'
-          message: 'The heat has been turned up so Henry stays warm!'
+          message: 'The heat has been turned up so Henry stays warm!<br/> Yeah Moosebear!'
           data:
             images:
               - /config/www/moosebear.jpg
