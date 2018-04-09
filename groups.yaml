@@ -20,7 +20,7 @@ Alarms:
   - binary_sensor.front_door
   - binary_sensor.basement_door
   - binary_sensor.bilco_door
-  input_boolean.away
+  - input_boolean.away
 
 #Travel Tab
 Traveltimes:
