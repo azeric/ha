@@ -2,6 +2,7 @@
 ##Every friday at 6:00pm
 
 - alias: 'Friday Heat'
+  initial_state: 'on'
   trigger:
     platform: time
     at: "18:00:00"
@@ -9,9 +10,6 @@
   - condition: time
     weekday:
        - fri
-  - condition: state
-    entity_id: 'input_boolean.heat'
-    state: 'on'
 
   action:
     - service: climate.set_temperature

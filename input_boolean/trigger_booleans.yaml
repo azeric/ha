@@ -1,7 +1,3 @@
 away:
   name: Away Mode
   initial: off
-
-heat:
-  name: Friday Heat
-  initial: off
