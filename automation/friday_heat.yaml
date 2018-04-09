@@ -6,13 +6,12 @@
     platform: time
     at: "12:15:00"
   condition:
-  - conditions:
-     - condition: time
-       weekday:
-         - mon
-     - condition: state
-       entity_id: 'input_boolean.heat'
-       state: 'on'
+  - condition: time
+    weekday:
+       - mon
+  - condition: state
+    entity_id: 'input_boolean.heat'
+    state: 'on'
 
   action:
     - service: climate.set_temperature
