@@ -1,5 +1,5 @@
 - alias: Away Mode
-  initial_state: 'on'
+  initial_state: 'off'
   trigger:
     platform: state
     entity_id: binary_sensor.front_door
@@ -7,6 +7,7 @@
     from: 'off'
 
   action:
+    #Enable Email
     #- service: script.alarm_notification
     - service: shell_command.cookie
     - delay:
