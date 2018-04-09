@@ -4,7 +4,7 @@
 - alias: 'Friday Heat'
   trigger:
     platform: time
-    at: "12:15:00"
+    at: "12:20:00"
   condition:
   - condition: time
     weekday:
