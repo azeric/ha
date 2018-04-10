@@ -5,8 +5,8 @@
   trigger:
     platform: state
     entity_id: binary_sensor.front_door
-    to: 'off'  #closed
-    from: 'on'
+    from: 'off' #closed
+    to: 'on' #open
     for:
       minutes: 5
 
