@@ -136,6 +136,7 @@ influxdb:
     entities:
        - sensor.temp_high
        - sensor.temp_low
+       - sensor.time
 
 automation: !include_dir_merge_list automation
 group: !include groups.yaml
