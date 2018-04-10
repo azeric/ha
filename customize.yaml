@@ -35,3 +35,5 @@ automation.friday_heat:
   icon: mdi:fan
 automation.away_mode:
   icon: mdi:home-variant
+automation.door_open_alarm:
+  icon: mdi:door-open
