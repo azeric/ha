@@ -1,6 +1,6 @@
 ####Notify if door is open for more than 5 minutes
 
-- alias: 'Door Open'
+- alias: 'Door Open Alarm'
   initial_state: 'on'
   trigger:
     platform: state
@@ -16,3 +16,14 @@
       data:
         message: "A door has been open for more than 5 minutes"
         title: "Door Ajar"
+    - service: notify.gmail
+      data:
+        title: 'Door Alarm'
+        message: 'Door has been open for more than 5 minutes'
+        data:
+          images:
+            - /config/www/barn.png
+    - service: tts.google_say
+      data:
+        entity_id: media_player.patio
+        message: The door is ajar

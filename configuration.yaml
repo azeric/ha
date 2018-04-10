@@ -40,7 +40,7 @@ notify:
     password: !secret gmail_password
     recipient:
       - !secret ha_gmail_username_eric
-      - !secret ha_gmail_username_ash
+      #- !secret ha_gmail_username_ash
     sender_name: The Barn
 
 zone:
