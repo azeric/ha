@@ -20,7 +20,7 @@ Alarms:
   - binary_sensor.basement_door
   - binary_sensor.bilco_door
   - automation.away_mode
-  - automation.door_open
+  - automation.door_open_alarm
 
 #Travel Tab
 Traveltimes:
