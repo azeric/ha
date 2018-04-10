@@ -65,6 +65,7 @@ default_view:
   - group.Alarms
   - camera.barn_inside
 #  - camera.barnoutside
+  - camera.fancy_weather
   - switch.my_smart_plug_mini
   - script.greeting
   - media_player.patio
