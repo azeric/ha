@@ -5,11 +5,11 @@
   initial_state: 'on'
   trigger:
     platform: time
-    at: "13:08:00"
+    at: "18:00:00"
   condition:
   - condition: time
     weekday:
-       - mon
+       - fri
 
   action:
     - service: climate.set_temperature
@@ -17,4 +17,4 @@
         entity_id: climate.barn
         temperature: 76
         operation_mode: Heat
-    #- service: script.heat_notification
+    - service: script.heat_notification
