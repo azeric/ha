@@ -5,7 +5,7 @@
   trigger:
     platform: zone
     event: enter
-    zone: zone.home
+    zone: zone.barn
     entity_id: device_tracker.eric_phone
 
   action:
