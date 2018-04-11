@@ -84,11 +84,6 @@ camera 3:
    still_image_url: https://511ny.org/map/Cctv/muuvdoatpie--13
    name: Saw Mill River
 
-camera 4:
-  - platform: generic
-    still_image_url: https://nodeserver.cloud3squared.com/getMeteogram/%7B%22appType%22%3A%22pro%22%2C%22accountName%22%3A%22webapp%22%2C%22source%22%3A%22webapp%22%2C%22trigger%22%3A%22WEBAPP%22%2C%22installer%22%3A%22webapp%22%2C%22checker%22%3A%22webapp-webapp-webapp%22%2C%22token%22%3A%225363739bd1bffa1d220356ce4abec482%22%2C%22placeName%22%3A%22Lagrangeville%22%2C%22latitude%22%3A41.66998479999999%2C%22longitude%22%3A-73.7360175%2C%22countryCode%22%3A%22US%22%2C%22appLocaleUsed%22%3A%22getFromCountryCode%22%2C%22legend%22%3A%22right%22%2C%22chartWidth%22%3A1245.4%2C%22chartHeight%22%3A337.3333333333333%2C%22reportedWidth%22%3A1916%2C%22reportedHeight%22%3A1012%2C%22density%22%3A1%2C%22hoursToDisplay%22%3A53%7D
-    name: Fancy Weather
-
 device_tracker:
   - platform: asuswrt
     host: !secret router_ip
@@ -117,11 +112,6 @@ media_player:
 
 tts:
   - platform: google
-
-shell_command:
-  snapshot: python /config/alarmsnapshot.py
-  cookie: curl -d "username="!secret zoneminder_username"&password="!secret zoneminder_password"&action=login&view=console" -c /config/cookies.txt  https://"!secret zoneminder_url"/zm/index.php
-  modect: curl -XPOST "https://"!secret zoneminder_url"/zm/api/monitors/3.json" -d "Monitor[Function]=Modect&Monitor[Enabled]=1"
 
 panel_custom:
   - name: floorplan

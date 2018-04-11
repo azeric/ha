@@ -9,10 +9,6 @@
   action:
     #Enable Email
     #- service: script.alarm_notification
-    - service: shell_command.cookie
-    - delay:
-        seconds: 1
-    - service: shell_command.modect
     - service: persistent_notification.create
       data:
         message: "alarm triggered"
