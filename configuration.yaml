@@ -129,6 +129,11 @@ influxdb:
        - sensor.dark_sky_apparent_temperature
        - sensor.dark_sky_precip_intensity
 
+panel_iframe:
+  router:
+    title: 'Travel Times'
+    url: 'https://dashboard.angrylab.com/d/VMUmtumik/new-dashboard-copy?orgId=1&panelId=8&fullscreen&from=1523505600000&to=1523541460345'
+
 automation: !include_dir_merge_list automation
 group: !include groups.yaml
 sensor: !include_dir_merge_list sensor
