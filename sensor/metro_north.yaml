@@ -1,3 +1,7 @@
+##Source - https://www.home-assistant.io/components/sensor.gtfs/
+## metro_north.zip must exist in home-assistant/config/gtfs folder
+## To update the data, delete the SQLite3 file and restart Home Assistant.
+
 - platform: gtfs
   origin: 51
   destination: 1

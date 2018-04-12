@@ -71,7 +71,7 @@ camera:
    username: !secret camera_name
    password: !secret camera_password
    authentication: basic
-   mjpeg_url: http://camera.angrylab.com:8082/picture/1/frame/
+   mjpeg_url: https://camera.angrylab.com/picture/1/frame/
    #still_image_url: http://camera.angrylab.com:8082/picture/1/current/?_username=admin&_signature=b9dcdf4c52d38923079bcc3472c1cf0e1e9e6f6c
 
 camera 2:
