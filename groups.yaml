@@ -75,6 +75,7 @@ Travel:
   view: true
   entities:
   - group.Traveltimes
+  - panel_iframe
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
   - group.Metronorth
