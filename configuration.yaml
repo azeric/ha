@@ -129,6 +129,7 @@ influxdb:
        - sensor.dark_sky_apparent_temperature
        - sensor.dark_sky_precip_intensity
        - climate.barn
+       - sun.sun
 
 automation: !include_dir_merge_list automation
 group: !include groups.yaml
