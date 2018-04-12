@@ -1,5 +1,5 @@
-# Dryer Notification Sequence Done
-- alias: 'Dryer Done - home'
+# Washer Notification Sequence Done
+- alias: 'Washer Done'
   trigger:
     platform: state
     entity_id: sensor.aeotec_smart_switch_6_power_11_8
