@@ -17,10 +17,4 @@
         entity_id: climate.barn
         temperature: 76
         operation_mode: Heat
-    - service: notify.gmail
-      data:
-        title: 'Heat Alarm'
-        message: 'The heat has been turned up so Henry stays warm!<br/> Yeah Moosebear!'
-        data:
-          images:
-            - /config/www/moosebear.jpg
+    - service: script.heat_notification
