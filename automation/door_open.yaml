@@ -11,15 +11,16 @@
       minutes: 5
 
   action:
-    - service: script.door_notification
-    # - service: notify.gmail
-    #   data:
-    #     title: 'Door Alarm'
-    #     message: 'Door has been open for more than 5 minutes'
-    #     data:
-    #       images:
-    #         - /config/www/barn.png
-    - #service: tts.google_say
-      #data:
-      #  entity_id: media_player.patio
-      #  message: The door is ajar
+  #Enable Email
+  #- service: script.alarm_notification
+  - service: persistent_notification.create
+    data:
+      message: "Door has been open for over 5 minutes"
+      title: "Door Open Alarm"
+  - service: notify.gmail
+    data:
+      title: 'Door Open Alarm'
+      message: 'Door is ajar'
+      data:
+        images:
+          - /config/www/barn.png
