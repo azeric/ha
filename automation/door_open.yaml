@@ -11,7 +11,7 @@
       minutes: 5
 
   action:
-    #- service: script.door_notification
+    - service: script.door_notification
     - service: persistent_notification.create
       data:
         message: "A door has been open for more than 5 minutes"
@@ -23,7 +23,7 @@
         data:
           images:
             - /config/www/barn.png
-    - service: tts.google_say
-      data:
-        entity_id: media_player.patio
-        message: The door is ajar
+    - #service: tts.google_say
+      #data:
+      #  entity_id: media_player.patio
+      #  message: The door is ajar
