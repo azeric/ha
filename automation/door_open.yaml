@@ -11,11 +11,7 @@
       minutes: 5
 
   action:
-    - service: script.door_notification
-    - service: persistent_notification.create
-      data:
-        message: "A door has been open for more than 5 minutes"
-        title: "Door Ajar"
+    #- service: script.door_notification
     - service: notify.gmail
       data:
         title: 'Door Alarm'
