@@ -8,8 +8,8 @@
 
   action:
     #Enable Email
-    - service: script.alarm_notification
-    - service: persistent_notification.create
+    #- service: script.alarm_notification
+    service: persistent_notification.create
       data:
         message: "alarm triggered"
         title: "Door Alarm"
