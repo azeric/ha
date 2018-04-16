@@ -12,7 +12,7 @@
 
   action:
     #- service: script.door_notification
-    service: notify.gmail
+    - service: notify.gmail
       data:
         title: 'Door Alarm'
         message: 'Door has been open for more than 5 minutes'
