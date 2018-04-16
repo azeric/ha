@@ -12,7 +12,7 @@
     - service: persistent_notification.create
       data:
         message: "alarm triggered"
-        title: "Alarm"
+        title: "Door Alarm"
     - service: notify.gmail
       data:
         title: 'Front Door Alarm'
