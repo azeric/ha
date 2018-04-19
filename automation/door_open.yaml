@@ -11,8 +11,6 @@
       minutes: 5
 
   action:
-  #Enable Email
-  #- service: script.alarm_notification
   - service: persistent_notification.create
     data:
       message: "Door has been open for over 5 minutes"
