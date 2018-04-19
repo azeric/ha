@@ -1,20 +1,20 @@
-# ####Turn on heat for Henry
-# ##Every friday at 6:00pm
-#
-# - alias: 'Friday Heat'
-#   initial_state: 'on'
-#   trigger:
-#     platform: time
-#     at: "18:00:00"
-#   condition:
-#   - condition: time
-#     weekday:
-#        - fri
-#
-#   action:
-#     - service: climate.set_temperature
-#       data:
-#         entity_id: climate.barn
-#         temperature: 76
-#         operation_mode: Heat
-#     #- service: script.heat_notification
+####Turn on heat for Henry
+##Every friday at 6:00pm
+
+- alias: 'Friday Heat'
+  initial_state: 'on'
+  trigger:
+    platform: time
+    at: "18:00:00"
+  condition:
+  - condition: time
+    weekday:
+       - fri
+
+  action:
+    - service: climate.set_temperature
+      data:
+        entity_id: climate.barn
+        temperature: 76
+        operation_mode: Heat
+    #- service: script.heat_notification
