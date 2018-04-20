@@ -24,4 +24,3 @@
         data:
           images:
             - /config/www/moosebear.jpg
-    #- service: script.heat_notification
