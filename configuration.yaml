@@ -104,6 +104,8 @@ mqtt:
 switch:
   - platform: tplink
     host: !secret tplink_host
+  - platform: tplink
+    host: 192.168.1.205
 
 media_player:
   - platform: sonos
