@@ -15,7 +15,7 @@ logbook:
 updater:
 config:
 sun:
-#discovery:
+discovery:
 #history:
 
 http:
@@ -113,6 +113,8 @@ media_player:
     hosts:
       - 192.168.1.209
       - 192.168.1.99
+  - platform: plex
+
 tts:
   - platform: google
 
@@ -134,6 +136,7 @@ influxdb:
        - climate.barn
        - sun.sun
        - binary_sensor.front_door
+       - switch.powermonitor
 
 automation: !include_dir_merge_list automation
 group: !include groups.yaml
