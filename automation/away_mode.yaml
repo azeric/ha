@@ -9,10 +9,6 @@
   action:
     #Enable Email
     #- service: script.alarm_notification
-    - service: persistent_notification.create
-      data:
-        message: "alarm triggered"
-        title: "Door Alarm"
     - service: notify.gmail
       data:
         title: 'Front Door Alarm'
