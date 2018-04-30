@@ -16,7 +16,7 @@ updater:
 config:
 sun:
 #discovery:
-history:
+#history:
 
 http:
   api_password: !secret http_password
@@ -89,7 +89,7 @@ device_tracker:
     host: !secret router_ip
     username: !secret router_username
     password: !secret router_password
-    track_new_devices: yes
+    track_new_devices: no
     protocol: telnet
   - platform: owntracks_http
 
@@ -133,6 +133,7 @@ influxdb:
        - sensor.dark_sky_precip_intensity
        - climate.barn
        - sun.sun
+       - binary_sensor.front_door
 
 automation: !include_dir_merge_list automation
 group: !include groups.yaml
