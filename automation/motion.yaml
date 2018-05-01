@@ -1,0 +1,18 @@
+- alias: Motion
+  initial_state: 'off'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.motion_detected
+    to: 'on'  
+    from: 'off'
+
+  action:
+    #Enable Email
+    #- service: script.alarm_notification
+    - service: notify.gmail
+      data:
+        title: 'Front Door Alarm'
+        message: '<b>Front</b> Door Alarm Triggered'
+        data:
+          images:
+            - /config/www/barn.png

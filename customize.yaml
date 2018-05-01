@@ -26,9 +26,11 @@ sensor.ashleighsipad:
 
 #Alarm Sensors
 binary_sensor.front_door:
-  icon: mdi:glassdoor
+  icon: mdi:door-open
 binary_sensor.basement_door:
-  icon: mdi:glassdoor
+  icon: mdi:door-open
+binary_sensor.bilco_door:
+  icon: mdi:door-open
 
 #automation toggles
 automation.friday_heat:
