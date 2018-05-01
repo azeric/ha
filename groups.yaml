@@ -16,11 +16,12 @@ Weather:
   - sensor.dark_sky_precip_intensity
 Alarms:
   entities:
+  - automation.away_mode
+  - automation.door_open_alarm
+  - input_boolean.motion
   - binary_sensor.front_door
   - binary_sensor.basement_door
   - binary_sensor.bilco_door
-  - automation.away_mode
-  - automation.door_open_alarm
 
 #Travel Tab
 Traveltimes:
@@ -66,7 +67,6 @@ default_view:
   - camera.barn_inside
 #  - camera.barnoutside
   - switch.my_smart_plug_mini
-
   - media_player.patio
   - media_player.living_room
   - switch.powermonitor

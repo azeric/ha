@@ -2,3 +2,7 @@ input_boolean.away:
   friendly_name: 'Away Mode'
   emulated_hue: True
   hidden: False
+
+input_boolean.motion:
+  friendly_name: 'Motion Detected'
+  hidden: False
