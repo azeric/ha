@@ -1,7 +1,7 @@
 #https://home-assistant.io/components/binary_sensor/
 
 #motion
-- platform:mqtt
+- platform: mqtt
   name: "Motion Detected"
   state_topic: "pi/motion"
 
