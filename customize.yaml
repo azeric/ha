@@ -25,8 +25,6 @@ sensor.ashleighsipad:
   friendly_name: Kermit (iPad)
 
 #Alarm Sensors
-binary_sensor.front_door:
-  icon:  "if (state === 'on') return mdi:door-open; else return mdi:door-closed;"
 binary_sensor.basement_door:
   icon:  "if (state === 'Open') return mdi:door-open; else return mdi:door-closed;"
 binary_sensor.bilco_door:
