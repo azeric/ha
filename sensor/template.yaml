@@ -24,4 +24,4 @@
       friendly_name: "Next train arrives at Grand Central at: "
     front_door:
       value_template:  '{% if is_state("binary_sensor.front_door", "on") %} Open {% else %} Closed {%- endif %}'
-      icon_template:  '{% if is_state("binary_sensor.front_door", "on") %} mdi:door-open {% else %} mdi:door-closed {%- endif %}'
+      icon_template:  '{%- if is_state("binary_sensor.front_door", "on") -%} mdi:door-open {%- else -%} mdi:door-closed {%- endif -%}'
