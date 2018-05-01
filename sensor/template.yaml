@@ -23,4 +23,4 @@
       value_template: '{{states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]}}'
       friendly_name: "Next train arrives at Grand Central at: "
     front_door:
-        icon:  'if (state === 'on') return mdi:door-open; else return mdi:door-closed;''
+      icon:  "if (state === 'on') return mdi:door-open; else return mdi:door-closed;"
