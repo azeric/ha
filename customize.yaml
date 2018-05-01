@@ -26,7 +26,7 @@ sensor.ashleighsipad:
 
 #Alarm Sensors
 binary_sensor.front_door:
-  icon: mdi:door-open
+  icon:  "if (state === 'on') return mdi:door-open; else return mdi:door-close;"
 binary_sensor.basement_door:
   icon: mdi:door-open
 binary_sensor.bilco_door:
