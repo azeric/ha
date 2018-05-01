@@ -70,6 +70,7 @@ default_view:
   - media_player.patio
   - media_player.living_room
   - switch.powermonitor
+  - automation.washer_notification
 Travel:
   name: Travel
   view: true

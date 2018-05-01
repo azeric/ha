@@ -1,20 +1,27 @@
 # Washer Notification Sequence Done
-# - alias: 'Washer Done'
-#   trigger:
-#     platform: state
-#     entity_id: sensor.aeotec_smart_switch_6_power_11_8
-#     state: '0.0'
-#   condition:
-#     condition: and
-#     conditions:
-#       - condition: state
-#         entity_id: input_boolean.dryer_switch
-#         state: 'on'
-#       - condition: state
-#         entity_id: device_tracker.eric_phone
-#         state: 'home'
-#   action:
-#     - service: tts.google_say
-#       entity_id: media_player.
-#       data:
-#         message: 'The washer is finished.'
+- alias: 'Washer Done'
+  trigger:
+      platform: state
+      entity_id: switch.powermonitor
+      from: 'False'
+      to: 'True'
+      for:
+        seconds: 60
+  # condition:
+  #   condition: and
+  #   conditions:
+  #     - condition: state
+  #       entity_id: switch.powermonitor
+  #       state: 'on'
+  #     - condition: state
+  #       entity_id: device_tracker.eric_phone
+  #       state: 'home'
+  action:
+    # - service: tts.google_say
+    #   entity_id: media_player.
+    #   data:
+    #     message: 'The washer is finished.'
+    - service: persistent_notification.create
+      data:
+        message: "Washing machine is finished"
+        title: "Washing Machine"
