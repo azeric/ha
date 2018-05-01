@@ -18,7 +18,7 @@ Alarms:
   entities:
   - automation.away_mode
   - automation.door_open_alarm
-  - binary_sensor.motion
+  - binary_sensor.motion_detected
   - binary_sensor.front_door
   - binary_sensor.basement_door
   - binary_sensor.bilco_door
