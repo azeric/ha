@@ -69,7 +69,6 @@ default_view:
   - switch.my_smart_plug_mini
   - media_player.patio
   - media_player.living_room
-  - switch.powermonitor
   - automation.washer_done
 Travel:
   name: Travel
@@ -88,4 +87,5 @@ SystemView:
   - group.UPS
   - group.Devices
   - script.greeting
+  - switch.powermonitor
   #- group.pihole
