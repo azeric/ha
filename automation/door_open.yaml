@@ -11,10 +11,10 @@
       minutes: 5
 
   action:
-  - service: persistent_notification.create
+  - service: tts.google_say
+    entity_id: media_player.living_room
     data:
-      message: "Door has been open for over 5 minutes"
-      title: "Door Open Alarm"
+      message: 'The door is ajar'
   - service: notify.gmail
     data:
       title: 'Door Open Alarm'
