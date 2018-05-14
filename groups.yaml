@@ -36,9 +36,7 @@ Metronorth:
   name: Metro North - Poughkeepsie to Grand Central
   entities:
    - sensor.poughkeepsie_leaving1
-   - sensor.poughkeepsie_arrives1
    - sensor.poughkeepsie_leaving2
-   - sensor.poughkeepsie_arrives2
 
 # System Tab
 System:
