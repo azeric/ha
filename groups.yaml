@@ -70,6 +70,12 @@ default_view:
   - media_player.patio
   - media_player.living_room
   - automation.washer_done
+Security:
+  name: Security
+  view: true
+  entities:
+  - camera.barn_inside
+  - group.alarms
 Travel:
   name: Travel
   view: true
