@@ -8,7 +8,7 @@
   data: metro_north.zip
   name: barn_to_city1
   offset:
-    minutes: 45
+    minutes: 29
 
 - platform: gtfs
   origin: 51
