@@ -21,6 +21,6 @@
     mode: transit
 
 - platform: waze_travel_time
-  origin: !secret latitude_barn, !secret longitude_barn
-  destination: !secret latitude_city, !secret longitude_city
+  origin: !secret latitude_barn , !secret longitude_barn
+  destination: !secret latitude_city , !secret longitude_city
   region: 'US'
