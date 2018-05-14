@@ -33,7 +33,7 @@ Traveltimes:
   - sensor.to_city
 
 Metronorth:
-  name: Metro North - Poughkeepsie to Grand Central
+  name: Poughkeepsie to Grand Central
   entities:
    - sensor.poughkeepsie_leaving1
    - sensor.poughkeepsie_leaving2

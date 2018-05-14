@@ -25,9 +25,9 @@ sensor.ashleighsipad:
   friendly_name: Kermit (iPad)
 
 sensor.poughkeepsie_leaving1:
-  entity_picture: mdi:train-variant
+  icon: mdi:train-variant
 sensor.poughkeepsie_leaving2:
-  entity_picture: mdi:train-variant
+  icon: mdi:train-variant
 
 
 #Alarm Sensors
