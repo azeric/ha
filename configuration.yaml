@@ -144,6 +144,11 @@ panel_custom:
     url_path: floorplan
     config: !include floorplan.yaml
 
+panel_iframe:
+  router:
+    title: 'Router'
+    url: 'https://www.google.com/maps/dir/Poughkeepsie+Station,+Main+Street,+Poughkeepsie,+NY/Grand+Central+Terminal,+New+York,+NY/@41.2281041,-74.4855939,9z/am=t/data=!4m14!4m13!1m5!1m1!1s0x89dd3ddf11a13d91:0x26f8ee9fef8622cc!2m2!1d-73.9376901!2d41.7071475!1m5!1m1!1s0x89c2590199ab5699:0xb371ae8b13bf172c!2m2!1d-73.97841!2d40.752457!3e3!12b1'
+
 influxdb:
   host: 192.168.1.208
   include:
