@@ -63,8 +63,6 @@ default_view:
   entities:
   - group.weather
   - group.thermostat
-  - group.Alarms
-  - camera.barn_inside
 #  - camera.barnoutside
   - switch.my_smart_plug_mini
   - media_player.patio
