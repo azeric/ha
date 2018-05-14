@@ -28,6 +28,8 @@ sensor.poughkeepsie_leaving1:
   icon: mdi:train-variant
 sensor.poughkeepsie_leaving2:
   icon: mdi:train-variant
+sensor.poughkeepsie_leaving3:
+  icon: mdi:train-variant
 
 
 #Alarm Sensors

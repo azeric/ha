@@ -3,9 +3,15 @@
   api_key: !secret google_api_key
   origin: zone.City
   destination: zone.Barn
-  
+
 - platform: google_travel_time
   name: To City
   api_key: !secret google_api_key
   origin: zone.Barn
   destination: zone.City
+
+- platform: google_travel_time
+  name: PK to GC
+  api_key: !secret google_api_key
+  origin: zone.Poughkeepsie_Train
+  destination: zone.Grand_Central

@@ -86,6 +86,7 @@ Travel:
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
   - group.Metronorth
+  - sensor.PK_to_GC
 SystemView:
   name: System
   view: true
