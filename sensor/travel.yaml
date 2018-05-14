@@ -14,6 +14,6 @@
   name: PK to GC
   api_key: !secret google_api_key
   mode: transit
-  transit_mode: train
+  #transit_mode: train
   origin: zone.Poughkeepsie_Train
   destination: zone.Grand_Central
