@@ -20,11 +20,11 @@
       value_template: '{{as_timestamp(states.sensor.barn_to_city1.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D %I:%M %P") }}'
       friendly_name: "Next train leaves Poughkeepsie at: "
     poughkeepsie_arrives1:
-      value_template: '{{states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]}}'
+      value_template: '{{as_timestamp(states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%D %I:%M %P") }}'
       friendly_name: "Next train arrives at Grand Central at: "
     poughkeepsie_leaving2:
-      value_template: '{{states.sensor.barn_to_city2.attributes["Origin Stop Arrival Time"]}}'
+      value_template: '{{as_timestamp(states.sensor.barn_to_city2.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D %I:%M %P") }}'
       friendly_name: "Next train leaves Poughkeepsie at: "
     poughkeepsie_arrives2:
-      value_template: '{{states.sensor.barn_to_city2.attributes["Destination Stop Arrival Time"]}}'
+      value_template: '{{as_timestamp(states.sensor.barn_to_city2.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%D %I:%M %P") }}'
       friendly_name: "Next train arrives at Grand Central at: "
