@@ -37,6 +37,7 @@ Metronorth:
   entities:
    - sensor.poughkeepsie_leaving1
    - sensor.poughkeepsie_leaving2
+   - sensor.poughkeepsie_leaving3
 
 # System Tab
 System:

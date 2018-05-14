@@ -17,3 +17,11 @@
   name: barn_to_city2
   offset:
     minutes: 70
+
+- platform: gtfs
+  origin: 51
+  destination: 1
+  data: metro_north.zip
+  name: barn_to_city3
+  offset:
+    minutes: 140
