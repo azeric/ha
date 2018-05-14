@@ -18,9 +18,6 @@ sun:
 discovery:
 #history:
 logger:
-default: warning
-  logs:
-    requests.packages.urllib3.connectionpool: critical
 
 http:
   api_password: !secret http_password
