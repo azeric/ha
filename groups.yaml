@@ -31,9 +31,6 @@ Traveltimes:
   entities:
   - sensor.to_barn
   - sensor.to_city
-Uber:
-  name: Uber
-  entities:
   - sensor.waze_travel_time
 
 Metronorth:
@@ -90,7 +87,6 @@ Travel:
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
   - group.Metronorth
-  - group.Uber
 SystemView:
   name: System
   view: true
