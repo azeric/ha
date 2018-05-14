@@ -2,7 +2,7 @@
 ##Every friday at 6:00pm
 
 - alias: 'Friday Heat'
-  initial_state: 'on'
+  initial_state: 'off'
   trigger:
     platform: time
     at: "18:00:00"
