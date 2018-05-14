@@ -31,6 +31,10 @@ Traveltimes:
   entities:
   - sensor.to_barn
   - sensor.to_city
+Traintimes:
+  name: Train Times
+  entities:
+  - sensor.PK_to_GC
 
 Metronorth:
   name: Poughkeepsie to Grand Central
@@ -86,7 +90,7 @@ Travel:
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
   - group.Metronorth
-  - sensor.PK_to_GC
+  - group.Traintimes
 SystemView:
   name: System
   view: true
