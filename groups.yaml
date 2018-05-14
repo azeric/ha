@@ -31,10 +31,10 @@ Traveltimes:
   entities:
   - sensor.to_barn
   - sensor.to_city
-Traintimes:
-  name: Train Times
+Uber:
+  name: Uber
   entities:
-  - sensor.PK_to_GC
+  - sensor.waze_travel_time
 
 Metronorth:
   name: Poughkeepsie to Grand Central
@@ -90,7 +90,7 @@ Travel:
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
   - group.Metronorth
-  - group.Traintimes
+  - group.Uber
 SystemView:
   name: System
   view: true

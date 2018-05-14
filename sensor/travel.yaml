@@ -19,3 +19,8 @@
   destination: zone.Grand_Central
   options:
     mode: transit
+
+- platform: waze_travel_time
+  origin: zone.Barn
+  destination: zone.Poughkeepsie_Train
+  region: 'US'
