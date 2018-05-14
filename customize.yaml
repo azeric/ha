@@ -24,6 +24,12 @@ sensor.ashleighsipad:
   entity_picture: /local/kermit.png
   friendly_name: Kermit (iPad)
 
+sensor.poughkeepsie_leaving1:
+  entity_picture: mdi:train-variant
+sensor.poughkeepsie_leaving2:
+  entity_picture: mdi:train-variant
+
+
 #Alarm Sensors
 binary_sensor.front_door:
   icon: mdi:door-open
