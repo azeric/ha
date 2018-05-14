@@ -17,8 +17,8 @@
       unit_of_measurement: '°F'
       friendly_name: "Today's Low"
     poughkeepsie_leaving1:
-      value_template: '{{as_timestamp(states.sensor.barn_to_city1.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D %I:%M %P") +  as_timestamp(states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
-      friendly_name: "First train leaves Poughkeepsie at: "
+      value_template: '{{ L: + as_timestamp(states.sensor.barn_to_city1.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D %I:%M %P") + A: +  as_timestamp(states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
+      friendly_name: "First Train: "
     poughkeepsie_arrives1:
       value_template: '{{as_timestamp(states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%D %I:%M %P") }}'
       friendly_name: "First train arrives at Grand Central at: "
