@@ -82,13 +82,13 @@ camera:
    mjpeg_url: https://camera.angrylab.com/picture/1/frame/
    #still_image_url: http://camera.angrylab.com:8082/picture/1/current/?_username=admin&_signature=b9dcdf4c52d38923079bcc3472c1cf0e1e9e6f6c
 
-camera1:
+camera 1:
  - platform: mjpeg
    name: Barn Outside
    username: !secret camera_name
    password: !secret camera_password
    authentication: basic
-   mjpeg_url: https://outsidecamera.angrylab.com/picture/3/frame/
+   mjpeg_url: https://outsidecamera.angrylab.com/picture/1/frame/
 
 camera 2:
  - platform: generic
