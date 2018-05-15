@@ -45,17 +45,17 @@ notify:
     sender_name: The Barn
 
 zone:
-  # - name: Barn
-  #   latitude: !secret latitude_barn
-  #   longitude: !secret longitude_barn
-  #   radius: 150
-  #   icon: mdi:domain
-  #
-  # - name: City
-  #   latitude: !secret latitude_city
-  #   longitude: !secret longitude_city
-  #   radius: 150
-  #   icon: mdi:domain
+  - name: Barn
+    latitude: !secret latitude_barn
+    longitude: !secret longitude_barn
+    radius: 150
+    icon: mdi:domain
+
+  - name: City
+    latitude: !secret latitude_city
+    longitude: !secret longitude_city
+    radius: 150
+    icon: mdi:domain
 
   - name: Poughkeepsie Train
     latitude: 41.7071475
