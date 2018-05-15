@@ -22,5 +22,5 @@
 
 - platform: waze_travel_time
   origin: !secret location_barn
-  destination: Manhattan, NY
+  destination: !secret location_city
   region: 'US'
