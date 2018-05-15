@@ -1,26 +1,23 @@
-- platform: google_travel_time
-  name: To Barn
-  api_key: !secret google_api_key
-  origin: zone.City
-  destination: zone.Barn
+# - platform: google_travel_time
+#   name: To Barn
+#   api_key: !secret google_api_key
+#   origin: zone.City
+#   destination: zone.Barn
 
-- platform: google_travel_time
-  name: To City
-  api_key: !secret google_api_key
-  origin: zone.Barn
-  destination: zone.City
-
-- platform: google_travel_time
-  name: PK to GC
-  api_key: !secret google_api_key
-#mode: transit
-  #transit_mode: train
-  origin: zone.Poughkeepsie_Train
-  destination: zone.Grand_Central
-  options:
-    mode: transit
+# - platform: google_travel_time
+#   name: To City
+#   api_key: !secret google_api_key
+#   origin: zone.Barn
+#   destination: zone.City
 
 - platform: waze_travel_time
+  name: To City
   origin: !secret location_barn
   destination: !secret location_city
+  region: 'US'
+
+- platform: waze_travel_time
+  name: To Barn
+  origin: !secret location_city
+  destination: !secret location_barn
   region: 'US'
