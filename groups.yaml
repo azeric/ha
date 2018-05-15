@@ -79,6 +79,7 @@ Security:
   - camera.barn_inside
   - camera.barn_outside
   - group.alarms
+  - device_tracker.eric_phone
 Travel:
   name: Travel
   view: true
