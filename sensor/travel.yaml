@@ -21,6 +21,6 @@
     mode: transit
 
 - platform: waze_travel_time
-  origin: !secret latitude_barn , !secret longitude_barn
+  origin: !secret location_barn
   destination: Manhattan, NY
   region: 'US'
