@@ -1,5 +1,5 @@
 - alias: Away Mode
-  initial_state: 'off'
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: binary_sensor.front_door
