@@ -15,19 +15,6 @@ Thermostat:
 #   - sensor.dark_sky_precip_probability
 #   - sensor.dark_sky_precip_intensity
 
-Weather:
-  name: Forecast
-  view: no
-  icon: mdi:sun
-  entities:
-    - sensor.forecast_0
-    - sensor.forecast_1
-    - sensor.forecast_2
-    - sensor.forecast_3
-    - sensor.forecast_4
-    - sensor.forecast_5
-    - sensor.forecast_6
-    - sensor.forecast_7
 
 #Security Tab
 Alarms:
