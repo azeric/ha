@@ -1,6 +1,12 @@
 # Washer Notification Sequence Done
-- alias: 'Watering Control'
+- alias: 'Water Garden On'
   trigger:
+    - platform: time
+      at: "8:00:00"
+    - platform: time
+      at: "8:00:00"
+    - platform: time
+      at: "8:00:00"
     - platform: time
       at: "8:00:00"
     - platform: time
@@ -21,3 +27,19 @@
       data:
         title: 'Watering On'
         message: 'Watering has started'
+
+######Turn off water after 5 iminutes
+- alias: 'Water Garden Off'
+  trigger:
+    platform: state
+    entity_id: switch.drip_irrigation
+    to: 'on'
+    for:
+      minutes: 5
+  action:
+    - service: switch.turn_off
+      entity_id: switch.drip_irrigation
+    - service: notify.gmail
+      data:
+        title: 'Watering Off'
+        message: 'Watering has ended'
