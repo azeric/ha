@@ -12,7 +12,7 @@
     - platform: time
       at: "14:00:00"
     - platform: time
-      at: "17:28:00"
+      at: "15:30:00"
   # Do not start if raining
   condition:
     condition: numeric_state
