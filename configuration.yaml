@@ -144,7 +144,7 @@ panel_custom:
     config: !include floorplan.yaml
 
 panel_iframe:
-  MotionEye:
+  otherapp:
     title: 'Motioneye'
     url: 'https://admin-camera1.angrylab.com'
 

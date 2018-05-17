@@ -1,15 +1,4 @@
-# - platform: darksky
-#   api_key: !secret dark_sky_key
-#   monitored_conditions:
-#     - summary
-#     - icon
-#     - temperature
-#     - apparent_temperature
-#     - precip_probability
-#     - precip_intensity
-#     - temperature_max
-#     - temperature_min
-#     - hourly_summary
+##########Complete package for Weather and Forecast Cards
 
 sensor:
   - platform: darksky
@@ -274,7 +263,7 @@ sensor:
 
 group:
   weather_card_today:
-    name: Today
+    name: Weather
     view: no
     entities:
       - sensor.dark_sky_hourly_summary
