@@ -31,7 +31,6 @@ sensor.poughkeepsie_leaving2:
 sensor.poughkeepsie_leaving3:
   icon: mdi:train-variant
 
-
 #Alarm Sensors
 binary_sensor.front_door:
   icon: mdi:door-open

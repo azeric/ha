@@ -62,7 +62,7 @@ Devices:
 
 #tabs
 default_view:
-  name: Barn
+  name: House
   view: true
   entities:
   - group.weather
