@@ -6,7 +6,7 @@
     - platform: time
       at: "10:00:00"
     - platform: time
-      at: "12:20:00"
+      at: "12:00:00"
     - platform: time
       at: "1:00:00"
     - platform: time
