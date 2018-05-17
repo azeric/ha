@@ -31,6 +31,9 @@ sensor:
     - precip_probability
     - daily_summary
     - icon
+    - apparent_temperature
+    - precip_intensity
+    - hourly_summary
 
   - platform: season
   - platform: template
@@ -274,9 +277,12 @@ group:
     name: Today
     view: no
     entities:
+      - sensor.dark_sky_hourly_summary
       - sensor.forecast_today
-      - sensor.dark_sky_temperature
-      - sensor.dark_sky_humidity
+      - sensor.outside_temp
+      - sensor.dark_sky_precip_probability
+      - sensor.dark_sky_precip_intensity
+
   weather_card_forecast:
     name: Forecast
     view: no

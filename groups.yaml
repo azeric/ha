@@ -66,10 +66,9 @@ default_view:
   name: House
   view: true
   entities:
-  - group.weather
-  - group.thermostat
   - group.weather_card_today
   - group.weather_card_forecast
+  - group.thermostat
   - media_player.patio
   - media_player.living_room
 
