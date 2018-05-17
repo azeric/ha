@@ -13,7 +13,7 @@
 
 sensor:
   - platform: darksky
-    api_key: !secret dark_sky_api_key
+    api_key: !secret dark_sky_key
     forecast:
       - 1
       - 2
