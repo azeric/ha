@@ -68,6 +68,7 @@ default_view:
   entities:
   - group.weather
   - group.thermostat
+  - group.weather_card_today
   - media_player.patio
   - media_player.living_room
 
