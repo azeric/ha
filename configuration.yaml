@@ -1,6 +1,7 @@
 homeassistant:
   name: Barn
   customize: !include customize.yaml
+  packages: !include_dir_named packages
   #latitude: !secret latitude_barn
   #longitude: !secret longitude_barn
   elevation: 101
@@ -161,4 +162,3 @@ sensor: !include_dir_merge_list sensor
 binary_sensor: !include binary_sensor.yaml
 script: !include_dir_merge_named script
 python_script:
-packages: !include_dir_merge_named packages
