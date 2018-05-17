@@ -4,13 +4,15 @@
     - platform: time
       at: "8:00:00"
     - platform: time
-      at: "8:00:00"
+      at: "10:00:00"
     - platform: time
-      at: "8:00:00"
+      at: "12:20:00"
     - platform: time
-      at: "8:00:00"
+      at: "1:00:00"
     - platform: time
-      at: "12:00:00"
+      at: "3:00:00"
+    - platform: time
+      at: "5:00:00"
   # condition:
   #   condition: and
   #   conditions:
