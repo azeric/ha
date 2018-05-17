@@ -2,26 +2,22 @@
 - alias: 'Water Garden On'
   trigger:
     - platform: time
+      at: "6:00:00"
+    - platform: time
       at: "8:00:00"
     - platform: time
       at: "10:00:00"
     - platform: time
       at: "12:00:00"
     - platform: time
-      at: "1:00:00"
+      at: "14:00:00"
     - platform: time
-      at: "3:00:00"
-    - platform: time
-      at: "5:00:00"
-  # condition:
-  #   condition: and
-  #   conditions:
-  #     - condition: state
-  #       entity_id: switch.powermonitor
-  #       state: 'on'
-  #     - condition: state
-  #       entity_id: device_tracker.eric_phone
-  #       state: 'home'
+      at: "17:28:00"
+  # Do not start if raining
+  condition:
+    condition: numeric_state
+    entity_id: sensor.dark_sky_precip_probability
+    below: 50
   action:
     - service: switch.turn_on
       entity_id: switch.drip_irrigation
@@ -30,7 +26,7 @@
         title: 'Watering On'
         message: 'Watering has started'
 
-######Turn off water after 5 iminutes
+######Turn off water after 5 minutes
 - alias: 'Water Garden Off'
   trigger:
     platform: state
