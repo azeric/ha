@@ -1,0 +1,23 @@
+# Washer Notification Sequence Done
+- alias: 'Watering Control'
+  trigger:
+    - platform: time
+      at: "8:00:00"
+    - platform: time
+      at: "12:00:00"
+  # condition:
+  #   condition: and
+  #   conditions:
+  #     - condition: state
+  #       entity_id: switch.powermonitor
+  #       state: 'on'
+  #     - condition: state
+  #       entity_id: device_tracker.eric_phone
+  #       state: 'home'
+  action:
+    - service: switch.turn_on
+      entity_id: switch.drip_irrigation
+    - service: notify.gmail
+      data:
+        title: 'Watering On'
+        message: 'Watering has started'
