@@ -67,8 +67,6 @@ default_view:
   entities:
   - group.weather
   - group.thermostat
-#  - camera.barnoutside
-  - switch.my_smart_plug_mini
   - media_player.patio
   - media_player.living_room
 
@@ -99,4 +97,5 @@ SystemView:
   - script.greeting
   - switch.powermonitor
   - automation.washer_done
+  - switch.drip_irrigation
   #- group.pihole
