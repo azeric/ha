@@ -143,6 +143,11 @@ panel_custom:
     url_path: floorplan
     config: !include floorplan.yaml
 
+panel_iframe:
+  MotionEye:
+    title: 'Motioneye'
+    url: 'https://admin-camera1.angrylab.com'
+
 influxdb:
   host: 192.168.1.208
   include:
