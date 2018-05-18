@@ -101,5 +101,6 @@ SystemView:
   - switch.beer_fan
   - automation.washer_done
   - switch.drip_irrigation
-  - automation.watering
+  - automation.water_garden_on
+  - automation.water_garden_off
   #- group.pihole
