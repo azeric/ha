@@ -97,7 +97,9 @@ SystemView:
   - group.UPS
   - group.Devices
   - script.greeting
-  - switch.powermonitor
+  - switch.power_monitor
+  - switch.beer_fan
   - automation.washer_done
   - switch.drip_irrigation
+  - automation.watering
   #- group.pihole

@@ -119,12 +119,15 @@ mqtt:
 
 switch:
   - platform: tplink
+    host: 192.168.1.203
+    name: Beer Fan
+  - platform: tplink
     #host: !secret tplink_host
-    host: 192.168.1.128
+    host: 192.168.1.204
     name: Drip Irrigation
   - platform: tplink #washer
     host: 192.168.1.205
-    name: powermonitor
+    name: Power Monitor
 
 media_player:
   - platform: sonos
