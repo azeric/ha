@@ -99,8 +99,8 @@ SystemView:
   - script.greeting
   - switch.power_monitor
   - switch.beer_fan
-  - automation.washer_done
   - switch.drip_irrigation
+  - automation.washer_done
   - automation.water_garden_on
   - automation.water_garden_off
   #- group.pihole
