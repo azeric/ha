@@ -102,5 +102,4 @@ SystemView:
   - switch.drip_irrigation
   - automation.washer_done
   - automation.water_garden_on
-  - automation.water_garden_off
   #- group.pihole
