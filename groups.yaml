@@ -23,15 +23,17 @@ Alarms:
   - automation.door_open_alarm
   - binary_sensor.motion_detected
   - binary_sensor.front_door
+  - binary_sensor.porch_door
   - binary_sensor.basement_door
   - binary_sensor.bilco_door
+  - binary_sensor.basement_window_nw
 
 #Travel Tab
 Traveltimes:
   name: Travel Times
   entities:
-  - sensor.to_barn
-  - sensor.to_city
+  - sensor.to_barn_clean
+  - sensor.to_city_clean
 
 Metronorth:
   name: Poughkeepsie to Grand Central

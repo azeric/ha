@@ -40,6 +40,8 @@ binary_sensor.basement_door:
   icon: mdi:door-open
 binary_sensor.bilco_door:
   icon: mdi:door-open
+binary_sensor.porch_door:
+  icon: mdi:door-open
 
 #automation toggles
 automation.friday_heat:
