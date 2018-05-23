@@ -22,7 +22,6 @@ sensor:
     - daily_summary
     - icon
     - apparent_temperature
-    - precip_intensity
     - hourly_summary
 
   - platform: season
