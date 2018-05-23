@@ -18,6 +18,7 @@ sensor:
     - temperature_max
     - humidity
     - precip_probability
+    - precip_intensity_max
     - daily_summary
     - icon
     - apparent_temperature
@@ -269,6 +270,7 @@ group:
       - sensor.forecast_today
       - sensor.outside_temp
       - sensor.dark_sky_precip_intensity
+      - sensor.dark_sky_precip_intensity_max
       - sensor.dark_sky_hourly_summary
       - sensor.dark_sky_daily_summary
 
