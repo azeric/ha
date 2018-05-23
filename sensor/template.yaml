@@ -25,3 +25,5 @@
     poughkeepsie_leaving3:
       value_template: '{{as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D") + " Leaves: " + as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%I:%M %P") + " Arrives: " + as_timestamp(states.sensor.barn_to_city3.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
       friendly_name: "Next train at: "
+    to_barn:
+      value_template: '{{as_timestamp(sensor.to_barn) | timestamp_custom("%I:%M")}}'
