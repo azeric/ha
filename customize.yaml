@@ -15,19 +15,12 @@ climate.barn:
   icon: mdi:thermometer
 
 #Add Pictures
-sensor.beaker:
-  entity_picture: /local/beaker.jpg
-  friendly_name: Beaker (server)
-sensor.ashleighsipad:
-  entity_picture: /local/kermit.png
-  friendly_name: Kermit (iPad)
-
-sensor.poughkeepsie_leaving1:
-  icon: mdi:train-variant
-sensor.poughkeepsie_leaving2:
-  icon: mdi:train-variant
-#sensor.poughkeepsie_leaving3:
-#  icon: mdi:train-variant
+# sensor.beaker:
+#   entity_picture: /local/beaker.jpg
+#   friendly_name: Beaker (server)
+# sensor.ashleighsipad:
+#   entity_picture: /local/kermit.png
+#   friendly_name: Kermit (iPad)
 
 #Alarm Sensors
 binary_sensor.front_door:

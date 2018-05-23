@@ -2,8 +2,12 @@
   sensors:
     beaker:
       value_template:  '{% if is_state("device_tracker.beaker", "home") %} Online {% else %} Offline {%- endif %}'
+      entity_picture_template: /local/beaker.jpg
+      friendly_name: Beaker (server)
     ashleighsipad:
       value_template:  '{% if is_state("device_tracker.ashleighsipad", "home") %} Online {% else %} Offline {%- endif %}'
+      entity_picture_template: /local/kermit.png
+      friendly_name: Kermit (iPad)
     outside_temp:
       value_template: '{{ states.sensor.dark_sky_temperature.state | round(0) }}'
       unit_of_measurement: '°F'
@@ -19,9 +23,11 @@
     poughkeepsie_leaving1:
       value_template: '{{as_timestamp(states.sensor.barn_to_city1.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D") + " Leaves: " + as_timestamp(states.sensor.barn_to_city1.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%I:%M %P") + " Arrives: " + as_timestamp(states.sensor.barn_to_city1.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
       friendly_name: "First Train at: "
+      icon_template: mdi:train-variant
     poughkeepsie_leaving2:
       value_template: '{{as_timestamp(states.sensor.barn_to_city2.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D") + " Leaves: " + as_timestamp(states.sensor.barn_to_city2.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%I:%M %P") + " Arrives: " + as_timestamp(states.sensor.barn_to_city2.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
       friendly_name: "Next train at: "
+      icon_template: mdi:train-variant
     poughkeepsie_leaving3:
       value_template: '{{as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D") + " Leaves: " + as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%I:%M %P") + " Arrives: " + as_timestamp(states.sensor.barn_to_city3.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
       friendly_name: "Next train at: "
