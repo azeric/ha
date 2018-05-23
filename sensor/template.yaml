@@ -25,11 +25,11 @@
     poughkeepsie_leaving3:
       value_template: '{{as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D") + " Leaves: " + as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%I:%M %P") + " Arrives: " + as_timestamp(states.sensor.barn_to_city3.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
       friendly_name: "Next train at: "
-    to_city:
-      value_template:  '{{ states.sensor.to_city_2.state | replace("min", "")}}'
-    to_barn:
+    to_city_clean:
+      value_template:  '{{ states.sensor.to_city.state | replace("min", "")}}'
+    to_barn_clean:
       value_template: >-
-         {% set uptime = sensor.to_barn.state | int %}
+         {% set uptime = states.sensor.to_barn.state | replace("min", "") | int %}
          {% set minutes = ((uptime % 60) / 1) | int %}
          {% set hours = ((uptime % 1440) / 60) | int %}
          {% set days = (uptime /1440) | int %}
