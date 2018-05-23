@@ -26,7 +26,7 @@
       value_template: '{{as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%D") + " Leaves: " + as_timestamp(states.sensor.barn_to_city3.attributes["Origin Stop Arrival Time"]) | timestamp_custom("%I:%M %P") + " Arrives: " + as_timestamp(states.sensor.barn_to_city3.attributes["Destination Stop Arrival Time"]) | timestamp_custom("%I:%M %P")}}'
       friendly_name: "Next train at: "
     to_city:
-      value_template:  '{{ states.sensor.dark_sky_temperature.state | round(0) }}'
+      value_template:  '{{ states.sensor.to_city.state | round(0) }}'
     to_barn:
       value_template: >-
          {% set uptime = sensor.to_barn.state | int %}
