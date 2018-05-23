@@ -11,19 +11,17 @@
 #   action:
 #     - service: homeassistant.turn_on
 #       entity_id: script.greeting
-
-automation:
-  - alias: 'Welcome Home'
-    initial_state: 'on'
-    trigger:
-      platform: zone
-      event: enter
-      zone: zone.barn
-      entity_id: device_tracker.eric_phone
-    action:
-      - service: script.sonos_say
-        data:
-          sonos_entity: media_player.living_room
-          volume: 0.5
-          message: 'Welcome Home!'
-          delay: '00:00:05'
+- alias: 'Welcome Home'
+  initial_state: 'on'
+  trigger:
+    platform: zone
+    event: enter
+    zone: zone.barn
+    entity_id: device_tracker.eric_phone
+  action:
+    - service: script.sonos_say
+      data:
+        sonos_entity: media_player.living_room
+        volume: 0.5
+        message: 'Welcome Home!'
+        delay: '00:00:05'
