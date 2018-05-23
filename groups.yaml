@@ -30,7 +30,7 @@ Alarms:
 Traveltimes:
   name: Travel Times
   entities:
-  - sensor.to_barn_clean
+  - sensor.to_barn
   - sensor.to_city
 
 Metronorth:

@@ -27,6 +27,8 @@
       friendly_name: "Next train at: "
     to_city_clean:
       value_template:  '{{ states.sensor.to_city.state | replace("min", "")}}'
+      friendly_name: "To City"
+      icon_template: /local/nyc.png
     to_barn_clean:
       value_template: >-
          {% set uptime = states.sensor.to_barn.state | replace("min", "") | int %}

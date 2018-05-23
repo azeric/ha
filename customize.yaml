@@ -17,8 +17,8 @@ climate.barn:
 #Add Pictures
 sensor.to_barn:
   entity_picture: /local/barn.png
-sensor.to_city:
-  entity_picture: /local/nyc.png
+#sensor.to_city:
+#  entity_picture: /local/nyc.png
 sensor.beaker:
   entity_picture: /local/beaker.jpg
   friendly_name: Beaker (server)
