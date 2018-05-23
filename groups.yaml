@@ -32,7 +32,6 @@ Traveltimes:
   entities:
   - sensor.to_barn
   - sensor.to_city
-  - sensor.waze_travel_time
 
 Metronorth:
   name: Poughkeepsie to Grand Central
