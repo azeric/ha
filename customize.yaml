@@ -15,10 +15,6 @@ climate.barn:
   icon: mdi:thermometer
 
 #Add Pictures
-#sensor.to_barn_clean:
-#  entity_picture: /local/barn.png
-sensor.to_city_clean:
-  entity_picture: /local/nyc.png
 sensor.beaker:
   entity_picture: /local/beaker.jpg
   friendly_name: Beaker (server)
