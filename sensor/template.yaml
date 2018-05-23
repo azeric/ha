@@ -64,4 +64,3 @@
            {%- endif -%}
          {%- endif -%}
       friendly_name: "To Barn"
-      entity_picture: /local/barn.png
