@@ -14,14 +14,6 @@ climate.barn:
   friendly_name: Current
   icon: mdi:thermometer
 
-#Add Pictures
-# sensor.beaker:
-#   entity_picture: /local/beaker.jpg
-#   friendly_name: Beaker (server)
-# sensor.ashleighsipad:
-#   entity_picture: /local/kermit.png
-#   friendly_name: Kermit (iPad)
-
 #Alarm Sensors
 binary_sensor.front_door:
   icon: mdi:door-open

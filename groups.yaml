@@ -6,15 +6,6 @@ Thermostat:
   entities:
   - climate.barn
   - automation.friday_heat
-# Weather:
-#   entities:
-#   - sensor.dark_sky_hourly_summary
-#   - sensor.outside_temp
-#   - sensor.temp_high
-#   - sensor.temp_low
-#   - sensor.dark_sky_precip_probability
-#   - sensor.dark_sky_precip_intensity
-
 
 #Security Tab
 Alarms:
@@ -62,7 +53,7 @@ Devices:
   - sensor.ashleighsipad
   - sensor.raspberrypi
 
-#tabs
+##############tabs###########################
 default_view:
   name: House
   view: true
@@ -86,7 +77,6 @@ Travel:
   view: true
   entities:
   - group.Traveltimes
-  #- panel_iframe
   - camera.west_side_highway_at_158th
   - camera.saw_mill_river
   - group.Metronorth
