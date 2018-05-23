@@ -87,10 +87,10 @@ SystemView:
   - group.System
   - group.UPS
   - group.Devices
-  - script.greeting
   - switch.power_monitor
   - switch.beer_fan
   - switch.drip_irrigation
   - automation.washer_done
   - automation.water_garden_on
+  - automation.welcome_home
   #- group.pihole
