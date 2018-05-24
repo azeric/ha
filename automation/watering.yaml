@@ -21,10 +21,10 @@
   action:
     - service: switch.turn_on
       entity_id: switch.drip_irrigation
-    - service: notify.gmail
-      data:
-        title: 'Watering On'
-        message: 'Watering has started'
+    # - service: notify.gmail
+    #   data:
+    #     title: 'Watering On'
+    #     message: 'Watering has started'
 
 ######Turn off water after 5 minutes
 - alias: 'Water Garden Off'
