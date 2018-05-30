@@ -160,6 +160,9 @@ influxdb:
        - climate.barn
        - sun.sun
        - binary_sensor.front_door
+       - binary_sensor.basement_door
+       - binary_sensor.porch_door
+       - binary_sensor.bilco_door
        - switch.powermonitor
        - switch.drip_irrigation
        - sensor.dark_sky_precip_probability
