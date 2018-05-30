@@ -2,7 +2,7 @@
   initial_state: 'on'
   trigger:
     platform: state
-    entity_id: binary_sensor.front_door
+    entity_id: binary_sensor.front_door, binary_sensor.basement_door, binary_sensor.porch_door, binary_sensor.bilco_door
     to: 'on'  #open
     from: 'off'
 
@@ -11,8 +11,8 @@
     #- service: script.alarm_notification
     - service: notify.gmail
       data:
-        title: 'Front Door Alarm'
-        message: '<b>Front</b> Door Alarm Triggered'
+        title: 'Door Alarm'
+        message: 'Door Alarm Triggered'
         data:
           images:
             - /config/www/barn.png
