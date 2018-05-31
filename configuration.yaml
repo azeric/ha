@@ -156,7 +156,7 @@ influxdb:
        - sensor.to_barn
        - sensor.to_city
        - sensor.dark_sky_apparent_temperature
-       - sensor.dark_sky_precip_intensity
+       #- sensor.dark_sky_precip_intensity
        - climate.barn
        - sun.sun
        - binary_sensor.front_door
@@ -166,6 +166,7 @@ influxdb:
        - switch.powermonitor
        - switch.drip_irrigation
        - sensor.dark_sky_precip_probability
+       - sensor.dark_sky_daily_max_precip_intensity
 
 automation: !include_dir_merge_list automation
 group: !include groups.yaml
