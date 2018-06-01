@@ -93,4 +93,5 @@ SystemView:
   - automation.washer_done
   - automation.water_garden_on
   - automation.welcome_home
+  - automation.door_open
   #- group.pihole
