@@ -25,7 +25,7 @@ binary_sensor.basement_window_nw:
   icon: mdi:window-closed
 binary_sensor.basement_door:
   templates:
-    icon: "if (state === 'Closed') return mdi:door-closed; else return mdi:door-open;"
+    icon: "if (state === 'off') return mdi:door-closed; else return mdi:door-open;"
 
 #automation toggles
 automation.friday_heat:
