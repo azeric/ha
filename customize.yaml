@@ -23,7 +23,7 @@ binary_sensor.porch_door:
   icon: mdi:door-closed
 binary_sensor.basement_window_nw:
   icon: mdi:window-closed
-"sensor.*_state":
+binary_sensor.basement_door:
   templates:
     icon: "if (state === 'closed') return mdi:door-closed; else return mdi:door-open;"
 
