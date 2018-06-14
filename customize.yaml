@@ -14,13 +14,15 @@ climate.barn:
 
 #Alarm Sensors
 binary_sensor.front_door:
-  icon: mdi:door-open
+  icon: mdi:door-closed
 binary_sensor.basement_door:
-  icon: mdi:door-open
+  icon: mdi:door-closed
 binary_sensor.bilco_door:
-  icon: mdi:door-open
+  icon: mdi:door-closed
 binary_sensor.porch_door:
-  icon: mdi:door-open
+  icon: mdi:door-closed
+binary_sensor.basement_window_nw:
+  icon: mdi:window-closed
 
 #automation toggles
 automation.friday_heat:
