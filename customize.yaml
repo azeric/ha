@@ -15,14 +15,17 @@ climate.barn:
 #Alarm Sensors
 binary_sensor.front_door:
   icon: mdi:door-closed
-binary_sensor.basement_door:
-  icon: mdi:door-closed
+#binary_sensor.basement_door:
+#  icon: mdi:door-closed
 binary_sensor.bilco_door:
-  icon: mdi:door-closed
+  icon: mdi:door-open
 binary_sensor.porch_door:
   icon: mdi:door-closed
 binary_sensor.basement_window_nw:
   icon: mdi:window-closed
+"sensor.*_state":
+  templates:
+    icon: "if (state === 'closed') return mdi:door-closed; else return mdi:door-open;"
 
 #automation toggles
 automation.friday_heat:
