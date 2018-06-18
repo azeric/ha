@@ -25,3 +25,7 @@
       data:
         message: "Washing machine is finished"
         title: "Washing Machine"
+    - service: notify.notify
+      data:
+        title: 'Washer Done'
+        message: 'Washer has finished'

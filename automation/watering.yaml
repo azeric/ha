@@ -37,6 +37,10 @@
   action:
     - service: switch.turn_off
       entity_id: switch.drip_irrigation
+    - service: notify.notify
+      data:
+        title: 'Watering Off'
+        message: 'Watering has ended'
     - service: notify.gmail
       data:
         title: 'Watering Off'
