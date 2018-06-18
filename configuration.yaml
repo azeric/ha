@@ -136,6 +136,12 @@ media_player:
 tts:
   - platform: google
 
+notify:
+  - name: notify
+    platform: html5
+    gcm_api_key: !secret chrome_push_server_key
+    gcm_sender_id: !secret chrome_push_sender_id
+
 panel_custom:
   - name: floorplan
     sidebar_title: Floorplan

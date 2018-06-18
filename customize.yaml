@@ -18,7 +18,7 @@ binary_sensor.front_door:
 #binary_sensor.basement_door:
 #  icon: mdi:door-closed
 binary_sensor.bilco_door:
-  icon: mdi:door-open
+  icon: mdi:door-closed
 binary_sensor.porch_door:
   icon: mdi:door-closed
 binary_sensor.basement_window_nw:
