@@ -15,7 +15,7 @@
     entity_id: media_player.living_room
     data:
       message: 'The door is ajar'
-  - service: notify.gmail
+  - service: notify.notify
     data:
       title: 'Door Open Alarm'
       message: 'Door is ajar'

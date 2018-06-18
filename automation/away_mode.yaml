@@ -9,7 +9,7 @@
   action:
     #Enable Email
     #- service: script.alarm_notification
-    - service: notify.gmail
+    - service: notify.notify
       data:
         title: 'Door Alarm'
         message: 'Door Alarm Triggered'
