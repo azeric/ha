@@ -3,7 +3,7 @@
 #motion
 - platform: mqtt
   name: "Motion Detected"
-  state_topic: "pi/motion"
+  state_topic: "pi/motion_detected"
 
 # doors
 - platform: mqtt
@@ -12,7 +12,7 @@
   payload_on: "Open"
   payload_off: "Closed"
   device_class: opening
-# 
+#
 # - platform: template
 #   sensors:
 #     front_door:
