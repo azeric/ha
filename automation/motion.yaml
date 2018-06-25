@@ -3,8 +3,8 @@
   trigger:
     platform: state
     entity_id: binary_sensor.motion_detected
-    to: 'off'
-    from: 'on'
+    to: 'on'
+    from: 'off'
 
   action:
     #Enable Email
