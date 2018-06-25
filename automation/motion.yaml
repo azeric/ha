@@ -1,4 +1,4 @@
-- alias: Motion
+- alias: Motion Detection
   initial_state: 'on'
   trigger:
     platform: state
