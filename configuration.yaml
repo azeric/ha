@@ -11,6 +11,7 @@ homeassistant:
 
 # Show links to resources in log and frontend
 frontend:
+  themes: !include themes.yaml
 logbook:
 updater:
 config:
