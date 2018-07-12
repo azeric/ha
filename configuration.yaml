@@ -2,8 +2,8 @@ homeassistant:
   name: Barn
   customize: !include customize.yaml
   packages: !include_dir_named packages
-  #latitude: !secret latitude_barn
-  #longitude: !secret longitude_barn
+  latitude: !secret latitude_barn
+  longitude: !secret longitude_barn
   elevation: 101
   unit_system: imperial
   time_zone: America/New_York
