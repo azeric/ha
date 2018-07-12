@@ -45,12 +45,15 @@ notify:
 
 zone:
   - name: Home
+<<<<<<< HEAD
     latitude: !secret latitude_barn
     longitude: !secret longitude_barn
     radius: 150
     icon: mdi:domain
 
   - name: Barn
+=======
+>>>>>>> 7605a637edfb126bd6b89554b332abc51aa95bfc
     latitude: !secret latitude_barn
     longitude: !secret longitude_barn
     radius: 150
