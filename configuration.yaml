@@ -44,7 +44,7 @@ notify:
     sender_name: The Barn
 
 zone:
-  - name: Barn
+  - name: Home
     latitude: !secret latitude_barn
     longitude: !secret longitude_barn
     radius: 150
