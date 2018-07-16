@@ -104,6 +104,10 @@ camera 3:
    still_image_url: https://511ny.org/map/Cctv/muuvdoatpie--13
    name: Saw Mill River
 
+eufy:
+  username: !secret eufy_username
+  password: !secret eufy_password
+
 device_tracker:
   - platform: asuswrt
     host: !secret router_ip
