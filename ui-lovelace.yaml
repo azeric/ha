@@ -1,10 +1,10 @@
-title: My Awesome Home
+title: Welcome to the Barn
 # Exclude entities from "Unused entities" view
 excluded_entities:
   - weblink.router
 views:
     # View tab title.
-  - title: Example
+  - title: Home
     # Optional unique id for direct access /lovelace/${id}
     id: example
     # Each view can have a different theme applied.
@@ -30,7 +30,7 @@ views:
     # Specify a tab icon if you want the view tab to be an icon.
   - icon: mdi:home-assistant
     # Title of the view. Will be used as the tooltip for tab icon
-    title: Second view
+    title: Security
     cards:
         # Entities card will take a list of entities and show their state.
       - type: entities
@@ -50,3 +50,5 @@ views:
         title: Lovelace
         content: >
           Welcome to your **Lovelace UI**.
+    title: Travel
+    title: System
