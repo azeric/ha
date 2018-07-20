@@ -26,7 +26,7 @@ views:
       - type: picture-entity
         image: https://www.home-assistant.io/images/default-social.png
         entity: light.bed_light
-      - type: entity
+      - type: entities
         entities:
           - group.weather_card_today
           - group.weather_card_forecast
