@@ -26,7 +26,13 @@ views:
       - type: picture-entity
         image: https://www.home-assistant.io/images/default-social.png
         entity: light.bed_light
-
+      - type: entity
+        entities:
+          - group.weather_card_today
+          - group.weather_card_forecast
+          - group.thermostat
+          - media_player.patio
+          - media_player.living_room
     # Specify a tab icon if you want the view tab to be an icon.
   - icon: mdi:home-assistant
     # Title of the view. Will be used as the tooltip for tab icon
