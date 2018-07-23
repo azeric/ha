@@ -29,10 +29,10 @@ views:
         entities:
           - group.weather_card_forecast
           - group.thermostat
-          - media_player.patio
-          - media_player.living_room
       - type: media-control
         entity: media_player.living_room
+      - type: media-control
+        entity: media_player.porch
     # Title of the view. Will be used as the tooltip for tab icon
     # title: Security
     # cards:
