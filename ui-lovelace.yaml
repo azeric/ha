@@ -24,7 +24,6 @@ views:
         entity: group.weather_card_today
       - type: entities
         entities:
-          - group.weather_card_today
           - group.weather_card_forecast
           - group.thermostat
           - media_player.patio
