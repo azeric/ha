@@ -32,7 +32,7 @@ views:
       - type: media-control
         entity: media_player.living_room
       - type: media-control
-        entity: media_player.porch
+        entity: media_player.patio
     # Title of the view. Will be used as the tooltip for tab icon
     # title: Security
     # cards:
