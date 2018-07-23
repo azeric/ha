@@ -19,7 +19,11 @@ views:
         card:
           type: glance
           title: People that are home
-
+      - type: entities
+        title: Thermostat
+        entities:
+          - climate.barn
+          - automation.friday_heat
       - type: weather-forecast
         entity: group.weather_card_today
       - type: entities
