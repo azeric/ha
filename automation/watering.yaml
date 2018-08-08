@@ -37,3 +37,29 @@
       data:
         title: 'Watering Off'
         message: 'Watering has ended'
+
+## Notify if watering skipped
+- alias: 'Water Garden Skipped'
+  trigger:
+    - platform: time
+      at: "6:00:00"
+    - platform: time
+      at: "8:00:00"
+    - platform: time
+      at: "10:00:00"
+    - platform: time
+      at: "12:00:00"
+    - platform: time
+      at: "14:00:00"
+    - platform: time
+      at: "16:00:00"
+  # Do not start if raining
+  condition:
+    condition: numeric_state
+    entity_id: sensor.dark_sky_precip_probability
+    above: 50
+  action:
+    - service: notify.notify
+      data:
+        title: 'Watering Skipped'
+        message: 'Rain probability is at {{sensor.dark_sky_precip_probability}}'
