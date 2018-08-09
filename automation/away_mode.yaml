@@ -7,8 +7,8 @@
       - binary_sensor.basement_door
       - binary_sensor.porch_door
       - binary_sensor.bilco_door
-    to: 'on'  #open
     from: 'off'
+    to: 'on'  #open
 
   action:
     #Enable Email
@@ -16,7 +16,4 @@
     - service: notify.notify
       data:
         title: 'Door Alarm'
-        message: 'The door has been opened'
-        data:
-          images:
-            - /config/www/barn.png
+        message: 'The {{ trigger.from_state.attributes.friendly_name }} door has been opened'
