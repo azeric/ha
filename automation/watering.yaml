@@ -33,10 +33,10 @@
   action:
     - service: switch.turn_off
       entity_id: switch.drip_irrigation
-    - service: notify.notify
-      data:
-        title: 'Watering Off'
-        message: 'Watering has ended'
+#    - service: notify.notify
+#      data:
+#        title: 'Watering Off'
+#        message: 'Watering has ended'
 
 ## Notify if watering skipped
 - alias: 'Water Garden Skipped'
@@ -46,7 +46,7 @@
     - platform: time
       at: "8:01:00"
     - platform: time
-      at: "10:18:00"
+      at: "10:01:00"
     - platform: time
       at: "12:01:00"
     - platform: time

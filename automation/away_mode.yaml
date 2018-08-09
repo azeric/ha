@@ -16,7 +16,7 @@
     - service: notify.notify
       data:
         title: 'Door Alarm'
-        message: 'The {{ trigger.to_state.attributes.friendly_name }} door has been opened'
+        message: 'The door has been opened'
         data:
           images:
             - /config/www/barn.png
