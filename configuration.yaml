@@ -138,12 +138,13 @@ switch:
     name: Power Monitor
 
 media_player:
-  - platform: sonos
+  - platform: plex
+
+sonos:
+  media_player:
     hosts:
       - 192.168.1.209
       - 192.168.1.99
-  - platform: plex
-
 tts:
   - platform: google
 
