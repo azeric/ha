@@ -15,5 +15,5 @@
     #- service: script.alarm_notification
     - service: notify.notify
       data:
-        title: 'Door Alarm'
-        message: 'The {{ trigger.from_state.attributes.friendly_name }} door has been opened'
+        title: "Door Alarm"
+        message: "The {{ trigger.from_state.attributes.friendly_name }} door has been opened"
