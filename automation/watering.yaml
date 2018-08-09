@@ -46,7 +46,7 @@
     - platform: time
       at: "8:01:00"
     - platform: time
-      at: "9:58:00"
+      at: "10:01:00"
     - platform: time
       at: "12:01:00"
     - platform: time
@@ -62,4 +62,4 @@
     - service: notify.notify
       data:
         title: 'Watering Skipped'
-        message: 'Rain probability is at {{sensor.dark_sky_precip_probability}}'
+        message: 'Rain probability is at '
