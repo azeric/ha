@@ -46,7 +46,7 @@
     - platform: time
       at: "8:01:00"
     - platform: time
-      at: "10:05:00"
+      at: "10:18:00"
     - platform: time
       at: "12:01:00"
     - platform: time
@@ -54,12 +54,12 @@
     - platform: time
       at: "16:01:00"
   # Do not start if raining
-  #condition:
-  #  condition: state
-  #  entity_id: switch.drip_irrigation
-  #  state: 'off'
+  condition:
+    condition: state
+    entity_id: switch.drip_irrigation
+    state: 'off'
   action:
     - service: notify.notify
       data:
         title: 'Watering Skipped'
-        message: "Rain probability is at {{ states.sensor.dark_sky_precip_probability.state }}"
+        message: "Rain probability is at {{ states.sensor.dark_sky_precip_probability.state }}%"
