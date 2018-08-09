@@ -14,7 +14,7 @@ sensor:
     monitored_conditions:
     - summary
     - temperature
-    - temperature_min
+    - temperature_low
     - temperature_max
     - humidity
     - precip_probability
