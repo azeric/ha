@@ -62,4 +62,4 @@
     - service: notify.notify
       data:
         title: 'Watering Skipped'
-        message: "Rain probability is at {{ sensor.dark_sky_precip_probability }}"
+        message: "Rain probability is at"
