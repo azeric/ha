@@ -14,6 +14,6 @@
     #Enable Email
     #- service: script.alarm_notification
     - service: notify.notify
-      data:
+      data_template:
         title: "Door Alarm"
         message: "The {{ trigger.from_state.attributes.friendly_name }} door has been opened"
