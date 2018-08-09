@@ -46,7 +46,7 @@
     - platform: time
       at: "8:01:00"
     - platform: time
-      at: "10:01:00"
+      at: "9:50:00"
     - platform: time
       at: "12:01:00"
     - platform: time
