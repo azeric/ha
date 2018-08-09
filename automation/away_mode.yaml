@@ -16,4 +16,4 @@
     - service: notify.notify
       data_template:
         title: "Door Alarm"
-        message: "The {{ trigger.from_state.attributes.friendly_name }} door has been opened"
+        message: "The {{ trigger.from_state.attributes.friendly_name }} has been opened"
