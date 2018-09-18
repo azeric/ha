@@ -84,7 +84,7 @@ camera:
    username: !secret camera_name
    password: !secret camera_password
    authentication: basic
-   mjpeg_url: https://camera.angrylab.com/picture/1/frame/
+   mjpeg_url: https://camera.01tools.com/picture/1/frame/
 
 camera 1:
  - platform: mjpeg
@@ -92,7 +92,7 @@ camera 1:
    username: !secret camera_name
    password: !secret camera_password
    authentication: basic
-   mjpeg_url: https://outsidecamera.angrylab.com/picture/1/frame/
+   mjpeg_url: https://outsidecamera.01tools.com/picture/1/frame/
 
 camera 2:
  - platform: generic
@@ -164,7 +164,7 @@ panel_custom:
 panel_iframe:
   otherapp:
     title: 'Motioneye'
-    url: 'https://admin-camera1.angrylab.com'
+    url: 'https://admin-camera1.01tools.com'
     icon: mdi:eye
 
 influxdb:
