@@ -116,10 +116,10 @@ eufy:
 #     protocol: telnet
 #   - platform: owntracks_http
 
-asuswrt:
-  host: !secret router_ip
-  username: !secret router_username
-  password: !secret router_password
+# asuswrt:
+#   host: !secret router_ip
+#   username: !secret router_username
+#   password: !secret router_password
 
 apcupsd:
   host: !secret apc_host
