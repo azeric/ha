@@ -19,6 +19,7 @@ sensor:
     - temperature_high
     - humidity
     - precip_probability
+    - precip_intensity
     - precip_intensity_max
     - daily_summary
     - icon
