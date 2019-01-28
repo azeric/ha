@@ -37,10 +37,9 @@ Metronorth:
 System:
   name: System
   entities:
-  - sensor.cpu_use
-  - sensor.ram_free
+  - sensor.memory_free
   - sensor.disk_free_media
-  - sensor.since_last_boot
+  - sensor.last_boot
 UPS:
   entities:
   - sensor.ups_load
