@@ -75,7 +75,6 @@ climate:
    password: !secret thermostat_password
    region: us
    scan_interval: 600
-   heat_away_temperature: 51
 
 camera:
  - platform: mjpeg
