@@ -170,6 +170,10 @@ panel_iframe:
     url: 'https://admin-camera1.01tools.com'
     icon: mdi:eye
 
+person:
+  - name: Eric
+    id:ericc
+    
 influxdb:
   host: 192.168.1.208
   include:
