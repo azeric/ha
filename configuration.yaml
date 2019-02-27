@@ -149,11 +149,11 @@ switch:
 media_player:
   - platform: plex
 
-sonos:
-  media_player:
-    hosts:
-      - 192.168.1.209
-      - 192.168.1.99
+# sonos:
+#   media_player:
+#     hosts:
+#       - 192.168.1.209
+#       - 192.168.1.99
 tts:
   - platform: google
 
@@ -177,8 +177,6 @@ panel_iframe:
     icon: mdi:eye
 
 person:
-  - name: Eric
-    id: ericc
 
 influxdb:
   host: 192.168.1.208
