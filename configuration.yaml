@@ -9,7 +9,13 @@ homeassistant:
   time_zone: America/New_York
   temperature_unit: F
 
-# Show links to resources in log and frontend
+
+#After Lovelace
+weather:
+ - platform: darksky
+   api_key: !secret dark_sky_key
+
+#legacy
 frontend:
 logbook:
 updater:
@@ -173,7 +179,7 @@ panel_iframe:
 person:
   - name: Eric
     id:ericc
-    
+
 influxdb:
   host: 192.168.1.208
   include:
